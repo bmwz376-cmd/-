@@ -1,0 +1,3234 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ミャンマー人のための日本建築施工図（統合版）</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;family=Noto+Serif+JP:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+      /* Word Document Style Override */
+      body {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 80px;
+        position: relative;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+        line-height: 1.6;
+      }
+
+      /* Headings */
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #2c3e50;
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+        font-family: 'Noto Serif JP', serif;
+      }
+
+      h1 {
+        font-size: 24pt;
+        text-align: center;
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-size: 18pt;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-top: 40px;
+      }
+
+      h2.subtitle {
+        font-size: 14pt;
+        text-align: center;
+        font-weight: normal;
+        border: none;
+        margin-top: 0;
+        color: #555;
+      }
+
+      h3 {
+        font-size: 14pt;
+        color: #444;
+        margin-top: 25px;
+      }
+
+      h3.subtitle-jp {
+        text-align: center;
+        font-size: 16pt;
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+
+      /* Text Formatting */
+      p {
+        margin-bottom: 1em;
+        text-align: justify;
+        font-size: 11pt;
+      }
+
+      strong {
+        color: #000;
+        font-weight: 700;
+      }
+
+      ul,
+      ol {
+        margin-bottom: 1em;
+      }
+
+      li {
+        margin-bottom: 0.5em;
+        font-size: 11pt;
+      }
+
+      /* Tables */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1.5em;
+        font-size: 10.5pt;
+      }
+
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      /* Images */
+      .img-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+      }
+
+      .caption {
+        font-size: 9pt;
+        color: #666;
+        margin-top: 5px;
+        font-style: italic;
+      }
+
+      /* Box for emphasis */
+      .info-box {
+        border: 1px solid #000;
+        padding: 15px;
+        background-color: #f9f9f9;
+        margin: 15px 0;
+      }
+
+      .term-jp {
+        font-weight: bold;
+        color: #d32f2f;
+      }
+
+      .term-en {
+        color: #555;
+        font-style: italic;
+        font-size: 0.95em;
+      }
+
+      hr {
+        margin: 40px 0;
+        border-top: 1px solid #000;
+      }
+    </style>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+      body {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 80px;
+        position: relative;
+        box-sizing: border-box;
+        font-family: 'Noto Sans JP', 'Times New Roman', serif;
+        background-color: #ffffff;
+        color: #2c3e50;
+        line-height: 1.6;
+      }
+
+      /* Header Styles */
+      header {
+        border-bottom: 2px solid #2c3e50;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 24pt;
+        color: #2c3e50;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        font-size: 14pt;
+        color: #7f8c8d;
+        margin-bottom: 10px;
+      }
+
+      .meta-info {
+        font-size: 11pt;
+        color: #95a5a6;
+        margin-top: 10px;
+      }
+
+      /* Section Styles */
+      h2 {
+        font-size: 18pt;
+        color: #2c3e50;
+        border-left: 8px solid #3498db;
+        padding-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        background-color: #ecf0f1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 14pt;
+        color: #34495e;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #bdc3c7;
+        padding-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+
+      /* Info Boxes */
+      .info-box {
+        padding: 15px 20px;
+        margin: 20px 0;
+        border-radius: 4px;
+        border-left: 5px solid;
+        background-color: #f9f9f9;
+      }
+
+      .info-box.blue {
+        border-color: #3498db;
+        background-color: #eaf6fc;
+      }
+
+      .info-box.green {
+        border-color: #2ecc71;
+        background-color: #eafaf1;
+      }
+
+      .info-box.orange {
+        border-color: #f39c12;
+        background-color: #fef5e6;
+      }
+
+      .info-box.red {
+        border-color: #e74c3c;
+        background-color: #fdedec;
+      }
+
+      .box-title {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .blue .box-title {
+        color: #2980b9;
+      }
+      .green .box-title {
+        color: #27ae60;
+      }
+      .orange .box-title {
+        color: #d35400;
+      }
+      .red .box-title {
+        color: #c0392b;
+      }
+
+      /* Images */
+      figure {
+        margin: 30px 0;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: #fff;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      figcaption {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        color: #7f8c8d;
+        font-weight: bold;
+      }
+
+      /* Tables */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 0.95rem;
+      }
+
+      th {
+        background-color: #2c3e50;
+        color: white;
+        padding: 10px;
+        text-align: left;
+      }
+
+      td {
+        border: 1px solid #bdc3c7;
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      /* Lists */
+      ul,
+      ol {
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      /* Footer */
+      footer {
+        margin-top: 60px;
+        padding-top: 20px;
+        border-top: 1px solid #bdc3c7;
+        text-align: center;
+        color: #7f8c8d;
+        font-size: 0.9rem;
+      }
+
+      .preview-next {
+        background-color: #34495e;
+        color: white;
+        padding: 20px;
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      /* Utility */
+      .term {
+        font-weight: bold;
+      }
+
+      .en-term {
+        font-style: italic;
+        color: #666;
+        font-size: 0.9em;
+      }
+    </style>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;family=Noto+Serif+JP:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+      /* Base Document Style - Word Document Like */
+      body {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        font-family: 'Arial', 'Noto Sans JP', sans-serif;
+        color: #333;
+        line-height: 1.6;
+        background-color: #fff;
+        font-size: 11pt;
+      }
+
+      /* Typography overrides */
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+        font-weight: bold;
+        line-height: 1.3;
+      }
+
+      p {
+        margin-bottom: 1em;
+        text-align: justify;
+      }
+
+      /* Cover Page */
+      .cover-page {
+        text-align: center;
+        padding: 100px 0;
+        margin-bottom: 60px;
+        border: 1px solid #ddd;
+        page-break-after: always;
+      }
+      .cover-title {
+        font-size: 28pt;
+        color: #000;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #0056b3;
+        display: inline-block;
+        padding-bottom: 10px;
+      }
+      .cover-subtitle {
+        font-size: 18pt;
+        color: #555;
+        margin-bottom: 60px;
+      }
+      .cover-info {
+        font-size: 14pt;
+        margin-top: 100px;
+        line-height: 2;
+      }
+      .copyright {
+        margin-top: 80px;
+        font-size: 12pt;
+        color: #666;
+      }
+
+      /* Headings Colors */
+      h1 {
+        font-size: 20pt;
+        border-bottom: 3px solid #0056b3;
+        padding-bottom: 10px;
+        color: #0056b3;
+      }
+      h2 {
+        font-size: 16pt;
+        border-left: 8px solid #0056b3;
+        padding-left: 15px;
+        color: #0056b3;
+        background-color: #f0f7ff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      h3 {
+        font-size: 14pt;
+        border-bottom: 2px solid #28a745;
+        padding-bottom: 5px;
+        color: #28a745;
+        margin-top: 30px;
+      }
+      h4 {
+        font-size: 12pt;
+        color: #d35400;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+
+      /* Terminology Support */
+      .en-term {
+        color: #666;
+        font-size: 0.9em;
+        font-weight: normal;
+        margin-left: 0.5em;
+      }
+      ruby {
+        ruby-position: over;
+      }
+      rt {
+        font-size: 0.6em;
+        color: #555;
+      }
+
+      /* Information Boxes */
+      .info-box {
+        border: 1px solid;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+      .box-blue {
+        border-color: #0056b3;
+        background-color: #f0f7ff;
+      }
+      .box-blue h4 {
+        color: #0056b3;
+        margin-top: 0;
+      }
+
+      .box-green {
+        border-color: #28a745;
+        background-color: #f0fff4;
+      }
+      .box-green h4 {
+        color: #28a745;
+        margin-top: 0;
+      }
+
+      .box-orange {
+        border-color: #fd7e14;
+        background-color: #fff8f0;
+      }
+      .box-orange h4 {
+        color: #fd7e14;
+        margin-top: 0;
+      }
+
+      .box-red {
+        border-color: #dc3545;
+        background-color: #fff0f0;
+      }
+      .box-red h4 {
+        color: #dc3545;
+        margin-top: 0;
+      }
+
+      /* Tables */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 10.5pt;
+      }
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 8px 12px;
+        vertical-align: middle;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+      }
+      tr:nth-child(even) {
+        background-color: #fafafa;
+      }
+
+      /* Drawing Placeholders */
+      .drawing-placeholder {
+        width: 100%;
+        height: 300px;
+        border: 2px dashed #ccc;
+        background-color: #f9f9f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        position: relative;
+        flex-direction: column;
+        color: #888;
+      }
+      .drawing-placeholder::before {
+        content: '📷 図面参照 / Refer to Drawing';
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .drawing-label {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #555;
+      }
+
+      /* Lists */
+      ul,
+      ol {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 0.5em;
+      }
+
+      /* Print adjustments */
+      @media print {
+        body {
+          padding: 0;
+          max-width: 100%;
+        }
+        .cover-page {
+          page-break-after: always;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border: none;
+        }
+        h2 {
+          page-break-before: always;
+        }
+        h2:first-of-type {
+          page-break-before: auto;
+        }
+      }
+
+      .symbol-char {
+        font-family: 'Segoe UI Symbol', sans-serif;
+        font-size: 1.2em;
+        margin-right: 5px;
+      }
+
+      /* Checkbox list */
+      .check-list {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .check-list li::before {
+        content: '☑';
+        margin-right: 8px;
+        color: #0056b3;
+        font-weight: bold;
+      }
+    </style>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" rel="stylesheet">
+  <style>
+      body {
+        font-family: 'Noto Serif JP', 'Times New Roman', serif;
+        line-height: 1.6;
+        color: #000;
+        background-color: #fff;
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Noto Sans JP', Arial, sans-serif;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 24pt;
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 18pt;
+        background-color: #f0f0f0;
+        padding: 8px 15px;
+        border-left: 5px solid #2196f3;
+        margin-top: 40px;
+      }
+
+      h3 {
+        font-size: 14pt;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        color: #1976d2;
+      }
+
+      p {
+        margin-bottom: 1em;
+        text-align: justify;
+      }
+
+      ul,
+      ol {
+        margin-bottom: 1em;
+      }
+
+      .info-box {
+        border: 1px solid #2196f3;
+        background-color: #e3f2fd;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+
+      .warning-box {
+        border: 1px solid #ff9800;
+        background-color: #fff3e0;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+
+      .check-list {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .check-list li::before {
+        content: '☑ ';
+        color: #2196f3;
+        font-weight: bold;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 10pt;
+      }
+
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      .ruby {
+        font-size: 0.8em;
+        color: #666;
+      }
+
+      .term-table td:nth-child(1) {
+        width: 25%;
+        font-weight: bold;
+      }
+      .term-table td:nth-child(2) {
+        width: 25%;
+      }
+      .term-table td:nth-child(3) {
+        width: 25%;
+        font-style: italic;
+      }
+      .term-table td:nth-child(4) {
+        width: 25%;
+      }
+
+      /* Figure Styles */
+      .figure-container {
+        margin: 30px 0;
+        page-break-inside: avoid;
+      }
+
+      .figure-box {
+        border: 2px solid #2196f3;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+      }
+
+      .figure-title {
+        color: #1976d2;
+        margin-top: 0;
+        font-size: 1.1em;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+      }
+
+      .figure-img {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        border: 1px solid #ddd;
+        margin: 10px 0;
+        background-color: #fff;
+      }
+
+      .figure-source {
+        font-size: 0.9em;
+        color: #666;
+        margin: 10px 0 0 0;
+        text-align: right;
+      }
+
+      .toc {
+        background-color: #fafafa;
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-bottom: 40px;
+      }
+
+      .header-info {
+        text-align: right;
+        font-size: 0.9em;
+        color: #555;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+      }
+    </style>
+  <style>
+  .part-divider { page-break-before: always; margin-top: 48px; }
+  .unified-toc { background:#fafafa; border:1px solid #ddd; padding:20px; margin: 24px 0 40px; }
+  .unified-toc ul { margin-bottom: 0; }
+  .unified-toc a { text-decoration: none; }
+  .unified-toc a:hover { text-decoration: underline; }
+  @media print {
+    .unified-toc { page-break-after: always; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+  <div style="text-align: center; padding: 20px; background-color: #f5f5f5; border-bottom: 2px solid #2c3e50;">
+    <h2 style="margin: 10px 0; color: #2c3e50; font-size: 20pt;">NARUKAWA Japanese Engineering Class</h2>
+    <p style="margin: 5px 0; color: #666; font-size: 12pt;">Produce　by　NL-DG Co.,ltd    NARUKAWA Co.,ltd</p>
+  </div>
+  <div class='unified-toc'>
+  <h2>目次（統合版）</h2>
+  <ul>
+  <li><a href='#part-1'>日本の建築施工図 基礎講座</a> <span style='color:#666;font-size:0.9em;'>（ミャンマー人のための日本建築施工図【１】.html）</span></li>
+  <li><a href='#part-2'>建築施工図の基本 第2章・第3章</a> <span style='color:#666;font-size:0.9em;'>（ミャンマー人のための日本建築施工図【２】.html）</span></li>
+  <li><a href='#part-3'>建築施工図の基本 第4章・第5章</a> <span style='color:#666;font-size:0.9em;'>（ミャンマー人のための日本施工図ガイド【３】.html）</span></li>
+  <li><a href='#part-4'>建築施工図の基本 第6章・第7章・第8章 仮設計画図・CAD実践・現場事例</a> <span style='color:#666;font-size:0.9em;'>（ミャンマー人のための日本建築施工図【４】.html）</span></li>
+  </ul>
+  </div>
+
+  <section id="part-1" class="part-divider">
+  <!-- Source file: ミャンマー人のための日本建築施工図【１】.html -->
+<!-- Title Section -->
+    <h1>日本の建築施工図 基礎講座</h1>
+    <h2 class="subtitle">Japanese Construction Shop Drawing Basic Course</h2>
+    <h3 class="subtitle-jp">ミャンマー人技術者のための実践ガイド</h3>
+
+    <!-- Table of Contents -->
+    <div class="info-box" style="background-color: #f5f5f5; border-color: #000">
+      <h2 style="margin-top: 0; text-align: center">目次 / Table of Contents</h2>
+      <ol style="line-height: 2">
+        <li>
+          <strong>第1章: 建築施工図とは</strong>
+          <br><span class="term-en">Chapter 1: What is Construction Shop Drawing?</span>
+        </li>
+        <li>
+          <strong>第2章: 施工図の種類</strong>
+          <br><span class="term-en">Chapter 2: Types of Shop Drawings</span>
+        </li>
+        <li>
+          <strong>第3章: 図面の基本ルール</strong>
+          <br><span class="term-en">Chapter 3: Basic Rules of Drawing</span>
+        </li>
+        <li>
+          <strong>第4章: 躯体図の基本</strong>
+          <br><span class="term-en">Chapter 4: Structural Frame Drawing Basics</span>
+        </li>
+        <li>
+          <strong>第5章: 仕上げ図の基本</strong>
+          <br><span class="term-en">Chapter 5: Finishing Drawing Basics</span>
+        </li>
+        <li>
+          <strong>第6章: 実務のポイント</strong>
+          <br><span class="term-en">Chapter 6: Practical Points</span>
+        </li>
+        <li>
+          <strong>重要な日本語建築用語集</strong>
+          <br><span class="term-en">Important Japanese Construction Terms</span>
+        </li>
+        <li>
+          <strong>学習のポイント</strong>
+          <br><span class="term-en">Learning Points</span>
+        </li>
+        <li>
+          <strong>まとめ</strong>
+          <br><span class="term-en">Summary</span>
+        </li>
+      </ol>
+    </div>
+
+    <hr>
+
+    <!-- Introduction -->
+    <h2>この講習会について / About This Course</h2>
+    
+    <div class="info-box" style="background-color: #e8f5e9; border-color: #4caf50">
+      <h3 style="margin-top: 0">🎯 講習の目的 (Course Objectives)</h3>
+      <p>この講習会は、ミャンマーから来日した建築技術者の皆さんが、日本の建築施工図を理解し、実務で活用できるようになることを目的としています。</p>
+      
+      <p><strong>この講習会で学べること：</strong></p>
+      <ul>
+        <li>日本の建築施工図の基本的な考え方と役割</li>
+        <li>施工図の種類と各図面の見方・読み方</li>
+        <li>図面に使われる線の種類、記号、寸法の表記方法</li>
+        <li>躯体図と仕上げ図の具体的な内容</li>
+        <li>実務で役立つチェックポイントと注意事項</li>
+        <li>日本語の建築専門用語</li>
+      </ul>
+    </div>
+
+    <div class="info-box" style="background-color: #fff3e0; border-color: #ff9800">
+      <h3 style="margin-top: 0">📋 受講にあたって (Prerequisites)</h3>
+      <p><strong>この講習会は以下の方を対象としています：</strong></p>
+      <ul>
+        <li>建築の基礎知識を持っている方</li>
+        <li>日本の建築現場で働く予定、または既に働いている方</li>
+        <li>CAD（Computer-Aided Design）の基本操作ができる方（推奨）</li>
+        <li>日本語の基本的な読み書きができる方（N3レベル以上推奨）</li>
+      </ul>
+      
+      <p><strong>学習のアドバイス：</strong></p>
+      <ul>
+        <li>この資料は何度も読み返して、少しずつ理解を深めてください</li>
+        <li>分からない用語はメモを取り、後で調べる習慣をつけましょう</li>
+        <li>実際の図面を見る機会があれば、この資料と照らし合わせて確認しましょう</li>
+        <li>先輩技術者に積極的に質問しましょう</li>
+      </ul>
+    </div>
+
+    <div class="info-box" style="background-color: #e3f2fd; border-color: #2196f3">
+      <h3 style="margin-top: 0">💪 日本の建築現場で成功するために</h3>
+      <p>日本の建築業界は、正確性、品質、安全性を非常に重視します。施工図は、これらを実現するための重要なツールです。</p>
+      <ul>
+        <li><strong>正確さ：</strong>1mmの誤差も見逃さない正確な施工が求められます</li>
+        <li><strong>品質：</strong>美しく、長持ちする建物を作ることが目標です</li>
+        <li><strong>安全：</strong>労働者の安全が最優先されます</li>
+        <li><strong>時間厳守：</strong>工程通りに工事を進めることが重要です</li>
+        <li><strong>チームワーク：</strong>様々な職種の人々と協力して仕事を進めます</li>
+      </ul>
+      <p style="margin-top: 15px">
+        <strong>皆さんの学習意欲と努力が、日本の建築業界での成功につながります。頑張りましょう！</strong>
+      </p>
+    </div>
+
+    <hr>
+
+    <!-- Chapter 1 -->
+    <h2>
+      第1章: 建築施工図とは<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 1: What is Construction Shop Drawing?</span>
+    </h2>
+
+    <h3>1.1 設計図と施工図の違い (Design Drawing vs Shop Drawing)</h3>
+
+    <div class="info-box">
+      <p><strong>設計図 (Design Drawing) とは：</strong></p>
+      <ul>
+        <li>建築物の目的・用途を図面として表現したもの</li>
+        <li>基本設計図と実施設計図がある</li>
+        <li>配置図、平面図、立面図、断面図、仕上げ図などで構成</li>
+      </ul>
+
+      <p><strong>施工図 (Shop Drawing) とは：</strong></p>
+      <ul>
+        <li>工事請負業者が実際に施工するために作成する図面</li>
+        <li>設計図を基に、より詳細な施工情報を記載</li>
+        <li>品質や納まりを確保するための重要な図面</li>
+      </ul>
+    </div>
+
+    <div class="img-container">
+      <img src="images/image_001.jpg" alt="施工図の例 (Example of Shop Drawing)" style="max-height: 500px" data-height-listener-added="true">
+      <p class="caption">図1.1: 建築施工図の作図例 (Example of Shop Drawing)</p>
+    </div>
+
+    <p><strong>設計図と施工図の関係図:</strong></p>
+    <div style="text-align: center; font-weight: bold; padding: 20px; border: 1px dashed #999">
+      施主 (Owner) <br>
+      ↓<br>
+      設計・監理 (Design &amp; Supervision)<br>
+      ↓<br>
+      工事施工者 (Contractor)<br>
+      ↓<br>
+      <span style="color: #d32f2f; font-size: 1.2em">施工図 (Shop Drawing)</span>
+    </div>
+
+    <h3>1.2 施工図の役割と重要性</h3>
+    <ol>
+      <li>
+        <strong>職人との意思伝達手段 (Communication with craftsmen)</strong><br>
+        図面を通じて工事内容を正確に伝えます。
+      </li>
+      <li>
+        <strong>各部位の納まりの確認 (Detail coordination check)</strong><br>
+        構造、設備、仕上げの整合性を確認します。
+      </li>
+      <li>
+        <strong>品質管理の基準 (Quality control standard)</strong><br>
+        施工精度と品質を確保する基準となります。
+      </li>
+    </ol>
+
+    <h3>1.3 日本の建築現場における施工図の位置づけ</h3>
+    <ul>
+      <li>着工前に必ず作成が必要です。</li>
+      <li>工事監理者の承諾が必要です。</li>
+      <li>全ての職人が参照する重要書類です。</li>
+      <li>現場での施工品質を左右します。</li>
+    </ul>
+
+    <h3>1.4 施工工程と作図スケジュール (Construction Schedule and Drawing Timeline)</h3>
+    <p>施工図は工事の進捗に合わせて段階的に作成します。以下は一般的な流れです：</p>
+    
+    <div class="info-box">
+      <p><strong>施工図作成の基本的な流れ：</strong></p>
+      <ol>
+        <li><strong>着工準備段階：</strong>総合仮設計画図、根切・山留計画図</li>
+        <li><strong>基礎工事段階：</strong>杭伏せ図、基礎伏せ図</li>
+        <li><strong>躯体工事段階：</strong>各階躯体図、階段躯体図</li>
+        <li><strong>仕上げ工事段階：</strong>平面詳細図、天井伏せ図、外壁タイル割付図</li>
+        <li><strong>設備工事段階：</strong>設備施工図との整合確認</li>
+      </ol>
+    </div>
+
+    <div class="info-box" style="background-color: #fff3e0; border-color: #ff9800">
+      <p><strong>⚠️ 重要ポイント (Important Points):</strong></p>
+      <ul>
+        <li><strong>早期着手：</strong>工事が始まる前に図面を完成させる必要があります</li>
+        <li><strong>関連調整：</strong>他の施工図や設備図との整合性確認が必須です</li>
+        <li><strong>承認期間：</strong>監理者の承諾には時間がかかるため、余裕を持って提出します</li>
+        <li><strong>変更管理：</strong>変更があった場合は速やかに図面を修正し、関係者に周知します</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!-- Chapter 2 -->
+    <h2>
+      第2章: 施工図の種類<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 2: Types of Shop Drawings</span>
+    </h2>
+
+    <h3>2.1 仮設計画図 (Temporary Works Plan)</h3>
+    <p><strong>目的：</strong>安全で効率的な工事を進めるための計画図</p>
+    
+    <div class="info-box">
+      <p><strong>主な仮設計画図の種類：</strong></p>
+      <ol>
+        <li>
+          <strong>総合仮設計画図 (General Temporary Works Plan)</strong>
+          <ul>
+            <li>仮囲い (Temporary fence) の位置</li>
+            <li>工事用道路 (Construction road)</li>
+            <li>資材置き場 (Material storage area)</li>
+            <li>現場事務所・休憩所の配置</li>
+            <li>揚重機 (Crane) の設置位置</li>
+          </ul>
+        </li>
+        <li>
+          <strong>根切・山留計画図 (Excavation &amp; Earth Retaining Plan)</strong>
+          <ul>
+            <li>掘削範囲と深さ</li>
+            <li>土留め工法 (切梁支保工、アンカー工法など)</li>
+            <li>地下水処理方法</li>
+            <li>周辺建物への影響対策</li>
+          </ul>
+        </li>
+        <li>
+          <strong>外部足場計画図 (External Scaffolding Plan)</strong>
+          <ul>
+            <li>足場の種類 (枠組足場、単管足場など)</li>
+            <li>足場の配置と高さ</li>
+            <li>歩道・道路の使用許可範囲</li>
+            <li>安全ネット・養生シートの設置</li>
+          </ul>
+        </li>
+        <li>
+          <strong>型枠支保工計画図 (Formwork &amp; Shoring Plan)</strong>
+          <ul>
+            <li>型枠の組立方法</li>
+            <li>支保工 (パイプサポート等) の配置</li>
+            <li>セパレーター・目地の位置</li>
+            <li>型枠解体の順序</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <div class="info-box" style="background-color: #ffebee; border-color: #f44336">
+      <p><strong>⚠️ 安全上の注意 (Safety Precautions):</strong></p>
+      <ul>
+        <li>仮設計画図は労働安全衛生法に基づいて作成する必要があります</li>
+        <li>足場や型枠支保工の耐荷重計算が必要です</li>
+        <li>官庁への届出が必要な場合があります（道路使用許可、沿道掘削届など）</li>
+        <li>定期的な点検と記録が義務付けられています</li>
+      </ul>
+    </div>
+
+    <h3>2.2 躯体図 (Structural Frame Drawing)</h3>
+    <p>目的：建物の骨組みを正確に施工するための図面</p>
+    <ul>
+      <li><strong>杭伏せ図 (Pile Layout Plan):</strong> 基礎杭の位置と仕様</li>
+      <li><strong>基礎伏せ図 (Foundation Layout Plan):</strong> 基礎の配置と寸法</li>
+      <li><strong>立上がり躯体図 (Wall Frame Drawing):</strong> 壁・柱・梁の詳細</li>
+      <li><strong>階段躯体図 (Stair Structure Drawing):</strong> 階段の構造詳細</li>
+    </ul>
+
+    <h3>2.3 仕上げ図 (Finishing Drawing)</h3>
+    <p><strong>外部仕上げ (External Finishing):</strong> 外壁タイル割付図、屋上仕上げ詳細図など</p>
+    <p><strong>内部仕上げ (Internal Finishing):</strong> 平面詳細図、天井伏せ図、展開図、便所詳細図など</p>
+
+    <h3>2.4 設備図・その他</h3>
+    <ul>
+      <li><strong>防水図 (Waterproofing Drawing):</strong> 防水標準詳細図</li>
+      <li><strong>設備図 (MEP Drawing):</strong> 電気、給排水、空調、防災設備</li>
+    </ul>
+
+    <hr>
+
+    <!-- Chapter 3 -->
+    <h2>
+      第3章: 図面の基本ルール<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 3: Basic Rules of Drawing</span>
+    </h2>
+
+    <h3>3.1 線の種類と使い分け (Line Types and Usage)</h3>
+    <p>日本の建築図面では、線の種類によって意味が異なります。</p>
+
+    <table style="width: 100%">
+      <tbody><tr>
+        <th>線種 (Type)</th>
+        <th>太さ (Width)</th>
+        <th>用途 (Usage)</th>
+      </tr>
+      <tr>
+        <td><strong>実線</strong> (Solid Line)</td>
+        <td>太線 (Thick) 0.35mm</td>
+        <td>建物外周、断面部分（最も重要）</td>
+      </tr>
+      <tr>
+        <td><strong>実線</strong> (Solid Line)</td>
+        <td>中線 (Medium) 0.20mm</td>
+        <td>躯体断面、仕上げ線、設備機器</td>
+      </tr>
+      <tr>
+        <td><strong>実線</strong> (Solid Line)</td>
+        <td>細線 (Thin) 0.10mm</td>
+        <td>見えがかり、寸法線、ハッチング</td>
+      </tr>
+      <tr>
+        <td><strong>破線</strong> (Dashed Line)</td>
+        <td>各種</td>
+        <td>隠れ線 (Hidden parts)、仮設物</td>
+      </tr>
+      <tr>
+        <td><strong>一点鎖線</strong> (Chain Line)</td>
+        <td>中・細</td>
+        <td>通り芯 (Grid lines)、中心線</td>
+      </tr>
+    </tbody></table>
+
+    <div class="img-container">
+      <img src="images/image_002.jpg" alt="線の種類 (Line Types)" data-height-listener-added="true">
+      <p class="caption">図3.1: 建築図面で使用される線の種類 (Types of architectural lines)</p>
+    </div>
+
+    <h3>3.2 図面記号の読み方 (Reading Drawing Symbols)</h3>
+    <p>図面には多くの記号が使われています。</p>
+
+    <div class="img-container">
+      <img src="images/image_003.jpg" alt="建築図面記号一覧 (Architectural Symbols)" data-height-listener-added="true">
+      <p class="caption">図3.2: 一般的な建築図面記号 (Common Architectural Symbols)</p>
+    </div>
+
+    <h4>躯体記号 (Structural Symbols) の例:</h4>
+    <ul>
+      <li>
+        <strong>スラブ符号 (Slab):</strong> <span style="font-family: monospace">S150-30</span> (厚さ150mm, FLから-30mm)
+      </li>
+      <li>
+        <strong>梁符号 (Beam):</strong> <span style="font-family: monospace">2G1 375×700</span> (2階の大梁1番, 幅375mm ×
+        高さ700mm)
+      </li>
+      <li>
+        <strong>建具開口寸法:</strong> <span style="font-family: monospace">SD1 +2065/2095/-30</span> (スチールドア1番,
+        上端/開口高/下端)
+      </li>
+    </ul>
+
+    <h3>3.3 寸法の書き方と読み方 (Dimensioning)</h3>
+    <ul>
+      <li>寸法は<strong>ミリメートル(mm)</strong>単位で表記します。</li>
+      <li>通り芯からの距離で表します。</li>
+      <li>
+        <strong>FL</strong> (Floor Level = 床レベル)、<strong>SL</strong> (Slab Level = スラブレベル)
+        などの基準レベルからの高さで表します。
+      </li>
+    </ul>
+
+    <h3>3.4 縮尺の理解 (Understanding Scale)</h3>
+    <p>1/100, 1/50, 1/20などがよく使われます。例：1/100図面上の10mmは、実際の1000mm(1m)です。</p>
+
+    <hr>
+
+    <!-- Chapter 4 -->
+    <h2>
+      第4章: 躯体図の基本<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 4: Structural Frame Drawing Basics</span>
+    </h2>
+
+    <h3>4.1 基礎伏せ図の見方 (Foundation Layout Plan)</h3>
+    <p>基礎伏せ図は、建物の基礎を真上から見た図面です。通り芯、基礎の形状、地中梁、配筋情報などが記載されます。</p>
+
+    <div class="img-container">
+      <img src="images/image_004.jpg" alt="基礎伏図の例 (Foundation Plan Example)" data-height-listener-added="true">
+      <p class="caption">図4.1: 基礎伏図の例 (Example of Foundation Plan)</p>
+    </div>
+
+    <h3>4.2 躯体図の記号 (Structural Symbols)</h3>
+    <ul>
+      <li><strong>G</strong> = 大梁 (Girder)</li>
+      <li><strong>B</strong> = 小梁 (Beam)</li>
+      <li><strong>FB</strong> = 基礎梁 (Foundation Beam)</li>
+      <li><strong>C</strong> = 柱 (Column)</li>
+      <li><strong>S</strong> = スラブ (Slab)</li>
+    </ul>
+
+    <h3>4.3 階段躯体図 (Stair Structure Drawing)</h3>
+    <p>
+      階段は複雑なため詳細図が必要です。<strong>蹴上げ (Riser)</strong>と<strong>踏面 (Tread)</strong>の寸法、配筋情報が重要です。
+    </p>
+
+    <div class="info-box" style="background-color: #e8f5e9; border-color: #4caf50">
+      <p><strong>📐 建築基準法の階段規定 (Building Code for Stairs):</strong></p>
+      <ul>
+        <li><strong>蹴上げ (R):</strong> 230mm以下</li>
+        <li><strong>踏面 (T):</strong> 150mm以上</li>
+        <li><strong>関係式:</strong> 550mm ≤ R + 2T ≤ 650mm</li>
+      </ul>
+      <p style="font-size: 0.95em; margin-top: 10px">
+        ※この規定を守らないと、階段が急すぎたり緩すぎたりして安全性に問題が生じます。
+      </p>
+    </div>
+
+    <h3>4.4 躯体図作成のポイント (Key Points for Structural Drawing)</h3>
+    <div class="info-box">
+      <p><strong>チェックリスト：</strong></p>
+      <ol>
+        <li>構造図との整合性を確認する（柱・梁の位置、断面寸法）</li>
+        <li>設備図との調整（貫通穴、スリーブの位置）</li>
+        <li>通り芯からの寸法を正確に記入する</li>
+        <li>基準レベル（FL, SL）を明記する</li>
+        <li>配筋情報を漏れなく記載する</li>
+        <li>開口部の寸法と位置を確認する</li>
+      </ol>
+    </div>
+
+    <hr>
+
+    <!-- Chapter 5 -->
+    <h2>
+      第5章: 仕上げ図の基本<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 5: Finishing Drawing Basics</span>
+    </h2>
+
+    <h3>5.1 平面詳細図 (Floor Detail Plan)</h3>
+    <p>各階の仕上げ情報を詳細に表した図面です。</p>
+    
+    <div class="info-box">
+      <p><strong>平面詳細図に記載される主な内容：</strong></p>
+      <ul>
+        <li><strong>仕上げ材料：</strong>床・壁・天井の材料名と仕様</li>
+        <li><strong>建具：</strong>ドア、窓の位置、種類、開き方向</li>
+        <li><strong>家具・設備機器：</strong>キッチン、トイレ、洗面台などの配置</li>
+        <li><strong>床レベル (FL)：</strong>各室の床高さ</li>
+        <li><strong>巾木・廻り縁：</strong>仕上げの見切り材</li>
+        <li><strong>スイッチ・コンセント：</strong>電気設備の位置</li>
+      </ul>
+    </div>
+
+    <h3>5.2 天井伏せ図 (Ceiling Plan)</h3>
+    <p>天井を下から見上げた図面です。</p>
+    <ul>
+      <li><strong>天井仕上げ材：</strong>石膏ボード、岩綿吸音板など</li>
+      <li><strong>照明器具：</strong>位置と種類</li>
+      <li><strong>空調設備：</strong>吹出口、吸込口の位置</li>
+      <li><strong>点検口：</strong>天井裏メンテナンス用の開口</li>
+      <li><strong>天井高 (CH)：</strong>床から天井までの高さ</li>
+      <li><strong>下がり天井：</strong>梁型などの段差</li>
+    </ul>
+
+    <h3>5.3 展開図 (Elevation Drawing)</h3>
+    <p>部屋の壁面を内側から見た図面です。</p>
+    <ul>
+      <li><strong>壁仕上げ：</strong>クロス、タイル、塗装など</li>
+      <li><strong>建具の高さ：</strong>ドアや窓の取付高さ</li>
+      <li><strong>スイッチ・コンセント：</strong>高さと位置</li>
+      <li><strong>造作家具：</strong>棚、カウンターなどの詳細</li>
+      <li><strong>巾木・廻り縁：</strong>高さと種類</li>
+    </ul>
+
+    <div class="img-container">
+      <img src="images/image_005.jpg" alt="展開図の例 (Interior Elevation Example)" data-height-listener-added="true">
+      <p class="caption">図5.1: 展開図のイメージ (Interior Elevation Image)</p>
+    </div>
+
+    <h3>5.4 タイル割付図 (Tile Layout Drawing)</h3>
+    <p>タイルの張り方、目地、半端なタイルの位置などを詳細に決定する図面です。美観に直結します。</p>
+    
+    <div class="info-box">
+      <p><strong>タイル割付図作成のポイント：</strong></p>
+      <ol>
+        <li><strong>美観優先：</strong>建物の正面や目立つ位置に小口タイル（半端なタイル）が来ないように割り付ける</li>
+        <li><strong>目地の通り：</strong>縦目地と横目地が通るように調整する</li>
+        <li><strong>開口部周り：</strong>窓やドアの周りのタイル割りに注意する</li>
+        <li><strong>役物タイル：</strong>出隅（外角）、入隅（内角）には専用の役物タイルを使用</li>
+        <li><strong>伸縮目地：</strong>一定間隔で伸縮目地（ムーブメントジョイント）を設ける</li>
+      </ol>
+    </div>
+
+    <h3>5.5 仕上げ図作成の注意点</h3>
+    <ul>
+      <li><strong>仕上げ表との整合：</strong>設計図の仕上げ表と一致させる</li>
+      <li><strong>納まり確認：</strong>異なる材料の取合い部分の納まりを検討する</li>
+      <li><strong>施工可能性：</strong>実際に施工できる方法か確認する</li>
+      <li><strong>サンプル確認：</strong>材料サンプルで色・質感を確認する</li>
+    </ul>
+
+    <hr>
+
+    <!-- Chapter 6 -->
+    <h2>
+      第6章: 実務のポイント<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Chapter 6: Practical Points</span>
+    </h2>
+
+    <h3>6.1 図面チェックの要点 (Drawing Check Points)</h3>
+    <div class="info-box">
+      <ul>
+        <li><strong>整合性の確認:</strong> 意匠・構造・設備の各図面間で矛盾がないか。</li>
+        <li><strong>寸法の確認:</strong> 通り芯間の寸法や部材寸法は正しいか。</li>
+        <li><strong>納まりの確認:</strong> 異なる材料の取り合いや、設備配管スペースは十分か。</li>
+      </ul>
+    </div>
+
+    <h3>6.2 よくある間違い (Common Mistakes)</h3>
+    
+    <div class="info-box" style="background-color: #ffebee; border-color: #e53935">
+      <p><strong>❌ 注意！これらのミスに気をつけよう：</strong></p>
+      
+      <p><strong>1. 寸法の不整合 (Dimension Inconsistency)</strong></p>
+      <ul>
+        <li>平面図と断面図で寸法が合っていない</li>
+        <li>通り芯間の寸法が間違っている</li>
+        <li>部材の寸法が設計図と異なる</li>
+      </ul>
+      
+      <p><strong>2. レベルの記入漏れ (Missing Level Information)</strong></p>
+      <ul>
+        <li>床レベル (FL) の記載がない</li>
+        <li>天井高さ (CH) の記載がない</li>
+        <li>基準レベルが不明確</li>
+      </ul>
+      
+      <p><strong>3. 設備との干渉 (MEP Interference)</strong></p>
+      <ul>
+        <li>梁と空調ダクトが干渉している</li>
+        <li>配管スペースが不足している</li>
+        <li>設備機器の搬入経路が確保されていない</li>
+      </ul>
+      
+      <p><strong>4. 納まりの未検討 (Detail Not Considered)</strong></p>
+      <ul>
+        <li>異種材料の取合いが不明確</li>
+        <li>施工順序が考慮されていない</li>
+        <li>伸縮目地の位置が決まっていない</li>
+      </ul>
+      
+      <p><strong>5. 記号・注記の間違い (Symbol &amp; Note Errors)</strong></p>
+      <ul>
+        <li>図面記号が間違っている</li>
+        <li>必要な注記が抜けている</li>
+        <li>仕上げ記号が不統一</li>
+      </ul>
+    </div>
+
+    <h3>6.3 現場での活用方法 (Site Application)</h3>
+    
+    <p><strong>1. 朝礼での説明 (Morning Meeting)</strong></p>
+    <ul>
+      <li>その日の作業内容を施工図を見せながら説明する</li>
+      <li>注意点や危険箇所を事前に共有する</li>
+      <li>職人からの質問に答える</li>
+    </ul>
+    
+    <p><strong>2. 職人への指示 (Instructions to Craftsmen)</strong></p>
+    <ul>
+      <li>図面を見ながら具体的に指示を出す</li>
+      <li>不明点はその場で確認し、必要に応じて部分詳細図を追加作成する</li>
+      <li>施工精度の基準を明確に伝える</li>
+    </ul>
+    
+    <p><strong>3. 検査での使用 (Inspection)</strong></p>
+    <ul>
+      <li>図面通りに施工されているか寸法を測って確認する</li>
+      <li>不具合箇所を図面に赤ペンで記録する</li>
+      <li>写真撮影と図面の照合</li>
+    </ul>
+    
+    <p><strong>4. 変更管理 (Change Management)</strong></p>
+    <ul>
+      <li>変更があった場合は必ず赤字（または青字）で図面に記入する</li>
+      <li>変更理由と日付を記録する</li>
+      <li>関係者全員に変更内容を周知する</li>
+      <li>最終的に竣工図（as-built drawing）として整理する</li>
+    </ul>
+
+    <h3>6.4 職人とのコミュニケーション (Communication with Craftsmen)</h3>
+    
+    <div class="info-box">
+      <p><strong>効果的な図面の使い方：</strong></p>
+      <ul>
+        <li><strong>全体から部分へ：</strong>まず建物全体の説明をしてから、詳細部分を説明する</li>
+        <li><strong>拡大図を活用：</strong>複雑な部分は拡大した詳細図を追加で作成する</li>
+        <li><strong>実物サンプルと照合：</strong>図面だけでなく、材料サンプルも一緒に見せる</li>
+        <li><strong>現場で実寸確認：</strong>重要な部分は現場で実際に寸法を測って確認する</li>
+        <li><strong>言葉と図面の両方：</strong>口頭説明だけでなく、必ず図面で確認する</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!-- Vocabulary -->
+    <h2>
+      重要な日本語建築用語集<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Important Japanese Construction Terms</span>
+    </h2>
+
+    <table>
+      <tbody><tr>
+        <th>日本語 (Japanese)</th>
+        <th>読み (Yomi)</th>
+        <th>英語 (English)</th>
+      </tr>
+      <tr>
+        <td class="term-jp">施工図</td>
+        <td>せこうず</td>
+        <td>Shop Drawing</td>
+      </tr>
+      <tr>
+        <td class="term-jp">躯体</td>
+        <td>くたい</td>
+        <td>Structural Frame</td>
+      </tr>
+      <tr>
+        <td class="term-jp">納まり</td>
+        <td>おさまり</td>
+        <td>Detail / Fitting</td>
+      </tr>
+      <tr>
+        <td class="term-jp">平面図</td>
+        <td>へいめんず</td>
+        <td>Floor Plan</td>
+      </tr>
+      <tr>
+        <td class="term-jp">断面図</td>
+        <td>だんめんず</td>
+        <td>Section Drawing</td>
+      </tr>
+      <tr>
+        <td class="term-jp">通り芯</td>
+        <td>とおりしん</td>
+        <td>Grid Line</td>
+      </tr>
+      <tr>
+        <td class="term-jp">蹴上げ</td>
+        <td>けあげ</td>
+        <td>Riser</td>
+      </tr>
+      <tr>
+        <td class="term-jp">踏面</td>
+        <td>ふみづら</td>
+        <td>Tread</td>
+      </tr>
+      <tr>
+        <td class="term-jp">基礎</td>
+        <td>きそ</td>
+        <td>Foundation</td>
+      </tr>
+      <tr>
+        <td class="term-jp">梁</td>
+        <td>はり</td>
+        <td>Beam</td>
+      </tr>
+      <tr>
+        <td class="term-jp">柱</td>
+        <td>はしら</td>
+        <td>Column</td>
+      </tr>
+      <tr>
+        <td class="term-jp">天井高</td>
+        <td>てんじょうだか</td>
+        <td>Ceiling Height (CH)</td>
+      </tr>
+      <tr>
+        <td class="term-jp">床レベル</td>
+        <td>ゆかレベル</td>
+        <td>Floor Level (FL)</td>
+      </tr>
+      <tr>
+        <td class="term-jp">仕上げ</td>
+        <td>しあげ</td>
+        <td>Finishing</td>
+      </tr>
+      <tr>
+        <td class="term-jp">仮設</td>
+        <td>かせつ</td>
+        <td>Temporary Works</td>
+      </tr>
+      <tr>
+        <td class="term-jp">型枠</td>
+        <td>かたわく</td>
+        <td>Formwork</td>
+      </tr>
+      <tr>
+        <td class="term-jp">配筋</td>
+        <td>はいきん</td>
+        <td>Reinforcement Layout</td>
+      </tr>
+      <tr>
+        <td class="term-jp">開口部</td>
+        <td>かいこうぶ</td>
+        <td>Opening</td>
+      </tr>
+      <tr>
+        <td class="term-jp">建具</td>
+        <td>たてぐ</td>
+        <td>Joinery / Door &amp; Window</td>
+      </tr>
+    </tbody></table>
+
+    <hr>
+
+    <!-- Learning Points -->
+    <h2>
+      学習のポイント<br><span style="font-size: 0.8em; font-weight: normal; color: #666">Learning Points</span>
+    </h2>
+
+    <h3>📚 施工図作成の流れを理解する (Understanding the Workflow)</h3>
+    <ol>
+      <li><strong>設計図の確認：</strong>まず設計図をよく読み、全体を理解する</li>
+      <li><strong>関連図面との整合確認：</strong>意匠・構造・設備図の整合性をチェック</li>
+      <li><strong>施工方法の検討：</strong>どのように施工するか計画を立てる</li>
+      <li><strong>施工図の作成：</strong>CADで図面を作成する</li>
+      <li><strong>チェックと承認：</strong>上司や監理者の確認を受ける</li>
+      <li><strong>現場への配布：</strong>関係者全員に図面を配布する</li>
+    </ol>
+
+    <h3>🔨 実践で覚える (Learn by Practice)</h3>
+    <div class="info-box">
+      <ul>
+        <li><strong>多くの図面を見る：</strong>先輩が作成した図面を見て、描き方のパターンを学ぶ</li>
+        <li><strong>現場と図面を比較：</strong>実際の現場で図面と実物を照らし合わせて理解を深める</li>
+        <li><strong>質問する：</strong>分からないことは先輩技術者に積極的に質問する</li>
+        <li><strong>間違いから学ぶ：</strong>失敗を恐れず、間違いを次に活かす</li>
+        <li><strong>記録を残す：</strong>学んだことをノートやメモに記録する</li>
+      </ul>
+    </div>
+
+    <h3>📖 継続的な学習 (Continuous Learning)</h3>
+    <ul>
+      <li><strong>新しい工法・材料：</strong>建築技術は常に進化しています。新しい情報を学び続けましょう</li>
+      <li><strong>CADスキル：</strong>AutoCAD、Jw_cadなどのソフトの操作を習得しましょう</li>
+      <li><strong>建築基準法：</strong>日本の建築法規の基本を理解しましょう</li>
+      <li><strong>日本語の専門用語：</strong>建築用語を覚えることでコミュニケーションが円滑になります</li>
+      <li><strong>写真撮影：</strong>現場の重要な部分を写真で記録する習慣をつけましょう</li>
+    </ul>
+
+    <hr>
+
+    <!-- Summary -->
+    <h2>まとめ / Summary</h2>
+
+    <div class="info-box" style="background-color: #e3f2fd; border-color: #2196f3">
+      <h3 style="margin-top: 0; color: #1976d2">施工図の3つの基本原則</h3>
+      <ol>
+        <li>
+          <strong>正確性 (Accuracy)</strong><br>
+          寸法、レベル、仕様を正確に記載する。ミスは大きな損失につながります。
+        </li>
+        <li>
+          <strong>整合性 (Consistency)</strong><br>
+          全ての図面の整合を確認する。矛盾があると現場が混乱します。
+        </li>
+        <li>
+          <strong>明確性 (Clarity)</strong><br>
+          誰が見ても分かりやすく描く。職人が理解できなければ意味がありません。
+        </li>
+      </ol>
+    </div>
+
+    <p style="font-size: 1.1em; margin-top: 20px">
+      <strong>日本の建築現場では、施工図の品質が建物の品質を左右します。</strong>
+    </p>
+    <p>この講座で学んだ基本を実践で活かし、優れた技術者を目指してください。</p>
+
+    <div class="info-box" style="background-color: #fff9c4; border-color: #fbc02d; margin-top: 30px">
+      <p><strong>💡 覚えておきたい言葉：</strong></p>
+      <p style="font-size: 1.1em; text-align: center; margin: 10px 0">
+        <strong>「図面は建物を建てるための設計図であり、同時に品質を保証する約束でもある」</strong>
+      </p>
+      <p style="text-align: center; font-style: italic; color: #666">
+        "Drawings are blueprints for construction and also a promise of quality assurance"
+      </p>
+    </div>
+
+    <hr>
+
+    <h2>参考資料・出典 / References</h2>
+    <ul style="font-size: 0.95em">
+      <li>建築施工図の基本 描き方・読み方の手引き - 建築施工図研究会</li>
+      <li>建築施工図 (初めて学ぶ建築実務テキスト)</li>
+      <li>日本建築学会 建築工事標準仕様書</li>
+      <li>建築基準法および関連法規</li>
+    </ul>
+
+    <hr style="margin-top: 50px">
+    <p style="text-align: center; font-size: 0.9em; color: #666">
+      作成日: 2025年12月<br>
+      対象: ミャンマー人建築技術者向け日本建築施工図基礎講習会<br>
+      © 2025 NARUKAWA Japanese Engineering Class. All Rights Reserved.
+    </p>
+</section>
+
+  <section id="part-2" class="part-divider">
+  <!-- Source file: ミャンマー人のための日本建築施工図【２】.html -->
+<header>
+      <h1>建築施工図の基本 第2章・第3章</h1>
+      <div class="subtitle">躯体施工図と仕上げ施工図の詳細</div>
+      <div class="subtitle">ミャンマー人建築技術者向け日本建築施工図基礎講習会</div>
+      <div class="meta-info">作成日: 2025年12月 | © NARUKAWA Japanese Engineering Class</div>
+    </header>
+
+    <div class="info-box blue">
+      <span class="box-title">はじめに / Introduction</span>
+      このテキストは、日本の建築現場で働く技術者のために作成されました。第1章で学んだ基礎を元に、より実践的な「躯体（くたい）」と「仕上げ（しあげ）」の図面について詳しく学びます。<br>
+      <small>This textbook is designed for engineers working at Japanese construction sites. Based on the basics learned in
+        Chapter 1, we will study practical "Structure (Kutai)" and "Finishing (Shiage)" drawings in detail.</small>
+    </div>
+
+    <!-- 第2章 -->
+    <h2>
+      第2章: 躯体施工図の詳細<br><small style="font-size: 0.6em; color: #555">Chapter 2: Details of Structural Construction Drawings</small>
+    </h2>
+
+    <h3>
+      2-1. 鉄筋加工図（配筋図）<br><small style="font-size: 0.7em">Reinforcement Bar Fabrication &amp; Arrangement Drawings</small>
+    </h3>
+
+    <p>
+      <span class="term">鉄筋加工図（てっきんかこうず / Rebar fabrication drawing）</span>は、工場で鉄筋を切断・加工するために必要な図面です。一方、<span class="term">配筋図（はいきんず / Rebar arrangement drawing）</span>は、現場で鉄筋をどのように組み立てるかを示した図面です。
+    </p>
+
+    <div class="info-box green">
+      <span class="box-title">鉄筋の種類と記号 / Types and Symbols</span>
+      日本では「D」の後に直径（mm）をつけて鉄筋の太さを表します。<br>
+      <ul>
+        <li><strong>D10, D13, D16</strong>: 細い鉄筋（スラブや壁に使用）</li>
+        <li><strong>D19, D22, D25</strong>: 太い鉄筋（柱や梁に使用）</li>
+        <li><strong>D29, D32...</strong>: さらに太い鉄筋（高層ビルや基礎に使用）</li>
+      </ul>
+    </div>
+
+    <figure>
+      <img src="images/image_006.jpg" alt="鉄筋の種類と形状" data-height-listener-added="true">
+      <figcaption>図2-1: 鉄筋の種類と形状 (Types and shapes of reinforcing bars)</figcaption>
+    </figure>
+
+    <p>
+      <strong>かぶり厚さ（かぶりあつさ / Concrete Cover）</strong>は、鉄筋が錆びないようにするために必要なコンクリートの厚みです。
+    </p>
+    <ul>
+      <li>基礎（きそ / Foundation）: <strong>60mm以上</strong></li>
+      <li>柱（はしら / Column）・梁（はり / Beam）: <strong>40mm以上</strong></li>
+      <li>スラブ（Slab）・壁（かべ / Wall）: <strong>30mm以上</strong></li>
+    </ul>
+
+    <figure>
+      <img src="images/image_007.jpg" alt="配筋図の実例" data-height-listener-added="true">
+      <figcaption>図2-2: 配筋図の実例 - 柱と梁の交差部 (Example of Rebar Arrangement Drawing)</figcaption>
+    </figure>
+
+    <div class="info-box orange">
+      <span class="box-title">重要：配筋図のチェックポイント / Checkpoints</span>
+      <ol>
+        <li>鉄筋の太さと本数は正しいか？ (Correct size and number?)</li>
+        <li>かぶり厚さは確保されているか？ (Is concrete cover sufficient?)</li>
+        <li>鉄筋の間隔（ピッチ）は正しいか？ (Is the pitch correct?) @200, @150など</li>
+        <li>継手（つぎて / Joint）の位置と長さは適切か？</li>
+      </ol>
+    </div>
+
+    <figure>
+      <img src="images/image_008.jpg" alt="基礎配筋図" data-height-listener-added="true">
+      <figcaption>図2-3: 基礎配筋図の例 (Example of Foundation Rebar Drawing)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_009.jpg" alt="配筋詳細図" data-height-listener-added="true">
+      <figcaption>図2-4: 配筋詳細図 (Detailed Rebar Drawing)</figcaption>
+    </figure>
+
+    <div class="info-box orange">
+      <span class="box-title">鉄筋の継手（つぎて）/ Rebar Joints</span>
+      鉄筋は工場から決まった長さで届くため、現場で繋ぐ必要があります。継手には3つの種類があります：
+      <ul>
+        <li><strong>重ね継手（かさねつぎて / Lap Joint）</strong>: 最も一般的。鉄筋を重ねて結束線で固定。</li>
+        <li><strong>圧接継手（あっせつつぎて / Gas Pressure Welding）</strong>: 高温で鉄筋同士を溶接。強度が高い。</li>
+        <li><strong>機械式継手（きかいしきつぎて / Mechanical Joint）</strong>: カプラーと呼ばれる金属部品で接続。</li>
+      </ul>
+    </div>
+
+    <figure>
+      <img src="images/image_010.jpg" alt="鉄筋継手の種類" data-height-listener-added="true">
+      <figcaption>図2-4a: 鉄筋継手の3つの種類 (Three types of rebar joints)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_011.jpg" alt="重ね継手と圧接継手" data-height-listener-added="true">
+      <figcaption>図2-4b: 重ね継手（左）と圧接継手（右）の詳細 (Lap joint and gas pressure welding)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_012.jpg" alt="機械式継手" data-height-listener-added="true">
+      <figcaption>図2-4c: 機械式継手（ネジカプラー）の構造 (Mechanical coupler joint structure)</figcaption>
+    </figure>
+
+
+    <h3>2-2. 型枠図（かたわくず）<br><small style="font-size: 0.7em">Formwork Drawings</small></h3>
+
+    <p>
+      <span class="term">型枠（かたわく / Formwork）</span>は、コンクリートを流し込んで固めるための「器（うつわ）」を作る工事です。型枠図は、この器をどのように組み立てるかを示します。
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>部材名 (Japanese)</th>
+          <th>読み方 (Reading)</th>
+          <th>英語 (English)</th>
+          <th>役割</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>せき板</td>
+          <td>せきいた</td>
+          <td>Sheathing / Panel</td>
+          <td>コンクリートに直接触れる板（ベニヤ板など）</td>
+        </tr>
+        <tr>
+          <td>根太</td>
+          <td>ねだ</td>
+          <td>Joist</td>
+          <td>せき板を支える角材やパイプ</td>
+        </tr>
+        <tr>
+          <td>大引き</td>
+          <td>おおびき</td>
+          <td>Girder</td>
+          <td>根太を支える太い材</td>
+        </tr>
+        <tr>
+          <td>支保工</td>
+          <td>しほこう</td>
+          <td>Support / Shoring</td>
+          <td>型枠全体を下から支える柱（パイプサポート）</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <figure>
+      <img src="images/image_013.jpg" alt="型枠構造図" data-height-listener-added="true">
+      <figcaption>図2-5: 型枠の構造図 (Structure of Formwork)</figcaption>
+    </figure>
+
+    <div class="info-box red">
+      <span class="box-title">安全管理の重要ポイント / Safety Management</span>
+      型枠支保工（かたわくしほこう）の崩壊は重大な事故につながります。<br>
+      <strong>「パイプサポート」の間隔と固定</strong>は、計算書通りに厳密に行う必要があります。
+    </div>
+
+    <figure>
+      <img src="images/image_014.jpg" alt="型枠支保工計画図" data-height-listener-added="true">
+      <figcaption>図2-6: 型枠支保工計画図 (Formwork Shoring Plan)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_015.jpg" alt="型枠支保工詳細" data-height-listener-added="true">
+      <figcaption>図2-7: 支保工の詳細と計算 (Details of Shoring and Calculation)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_016.jpg" alt="型枠支保工詳細図" data-height-listener-added="true">
+      <figcaption>図2-8: 支保工の組み立て詳細 (Assembly details of shoring)</figcaption>
+    </figure>
+
+    <h3>2-3. コンクリート打設計画図<br><small style="font-size: 0.7em">Concrete Pouring Plan</small></h3>
+    <p>
+      <span class="term">コンクリート打設（だせつ / Pouring）</span>は、時間との勝負です。事前に計画図を作成し、以下の点を確認します。
+    </p>
+    <ul>
+      <li><strong>打継ぎ位置（うちつぎいち / Construction Joint）</strong>: 構造的に弱くない場所で区切ります。</li>
+      <li><strong>スランプ（Slump）</strong>: コンクリートの柔らかさ。数値が大きいほど柔らかい。</li>
+      <li>
+        <strong>コールドジョイント防止</strong>:
+        先に打ったコンクリートが固まる前に、次のコンクリートを打つ必要があります。
+      </li>
+
+    <div class="info-box blue">
+      <span class="box-title">スランプ試験とは？ / What is Slump Test?</span>
+      生コンクリートが現場に到着したら、必ず「スランプ試験」を行います。<br>
+      スランプコーン（高さ30cmの金属製の型）にコンクリートを詰めて、型を外した時に何cm下がるかを測定します。<br>
+      <strong>標準値</strong>: 15cm, 18cm, 21cm など（建物の用途により異なる）
+    </div>
+
+    <figure>
+      <img src="images/image_017.jpg" alt="スランプ試験" data-height-listener-added="true">
+      <figcaption>図2-9: スランプ試験の手順 (Slump test procedure)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_018.jpg" alt="スランプ検査の様子" data-height-listener-added="true">
+      <figcaption>図2-10: 現場でのスランプ検査の様子 (Slump test at construction site)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_019.jpg" alt="コンクリート打設と打継ぎ" data-height-listener-added="true">
+      <figcaption>図2-11: コンクリート打設と打継ぎ位置の計画 (Concrete pouring and joint planning)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_020.jpg" alt="コンクリート打設の様子" data-height-listener-added="true">
+      <figcaption>図2-12: 実際のコンクリート打設作業 (Actual concrete pouring work)</figcaption>
+    </figure>
+
+    <div class="info-box red">
+      <span class="box-title">重要！コールドジョイント防止 / Preventing Cold Joints</span>
+      コールドジョイント（Cold Joint）は、先に打ったコンクリートが固まってしまい、後から打ったコンクリートとの間に隙間ができる現象です。<br>
+      <strong>防止策:</strong>
+      <ul>
+        <li>打設速度を計算して、前のコンクリートが固まる前（約2時間以内）に次を打つ</li>
+        <li>気温が高い日は特に注意が必要</li>
+        <li>打継ぎ位置は事前に計画図で決める</li>
+      </ul>
+    </div>
+
+    </ul>
+
+    <!-- 第3章 -->
+    <h2>
+      第3章: 仕上げ施工図の詳細<br><small style="font-size: 0.6em; color: #555">Chapter 3: Details of Finishing Construction Drawings</small>
+    </h2>
+
+    <h3>
+      3-1. 内装詳細図（ないそうしょうサイズ）<br><small style="font-size: 0.7em">Interior Detail Drawings</small>
+    </h3>
+
+    <p>
+      建物の中身を作るための図面です。<span class="term">平面詳細図（へいめんしょうさいず / Detailed Floor Plan）</span>は、縮尺1/50や1/30で描かれ、部屋の正確な寸法や仕上げ材の位置を示します。
+    </p>
+
+    <div class="info-box blue">
+      <span class="box-title">平面詳細図のポイント / Points of Detailed Floor Plan</span>
+      <ul>
+        <li><strong>壁の仕上げ厚さ</strong>: コンクリート躯体から、仕上げ面（ボードやクロス）までの距離。</li>
+        <li><strong>建具（たてぐ）の位置</strong>: ドアや窓が壁のどこに付くか。</li>
+        <li><strong>タイル割り</strong>: タイルが綺麗に納まるように調整する。</li>
+      </ul>
+    </div>
+
+    <figure>
+      <img src="images/image_021.jpg" alt="平面詳細図" data-height-listener-added="true">
+      <figcaption>図3-1: 平面詳細図の実例 (Example of Detailed Floor Plan)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_022.jpg" alt="平面詳細図例" data-height-listener-added="true">
+      <figcaption>図3-2: 平面詳細図の寸法表記 (Dimensioning in Detailed Floor Plan)</figcaption>
+    </figure>
+
+    <p>
+      <span class="term">展開図（てんかいず / Elevation / Interior Elevation）</span>は、部屋の中央から東西南北の壁を見た図面です。天井の高さ（CH）や窓の高さ、コンセントの位置などが分かります。
+    </p>
+
+    <figure>
+      <img src="images/image_023.jpg" alt="内装詳細図" data-height-listener-added="true">
+      <figcaption>図3-3: 内装詳細図と納まり (Interior Details and Fitting)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_024.jpg" alt="内装図面（造作図）" data-height-listener-added="true">
+      <figcaption>図3-4: 造作家具と内装の図面 (Millwork and Interior Drawing)</figcaption>
+    </figure>
+
+    <p>
+      <span class="term">天井伏せ図（てんじょうふせず / Reflected Ceiling Plan - RCP）</span>は、床に鏡を置いて天井を映したような図面です。照明器具、空調吹出口、スプリンクラーなどの位置が分かります。
+    </p>
+
+    <figure>
+      <img src="images/image_025.jpg" alt="天井伏せ図の基本" data-height-listener-added="true">
+      <figcaption>図3-4a: 天井伏せ図の基本構成 (Basic components of Reflected Ceiling Plan)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_026.jpg" alt="天井伏せ図と照明計画" data-height-listener-added="true">
+      <figcaption>図3-4b: 天井伏せ図と照明器具の配置 (RCP with lighting fixture layout)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_027.jpg" alt="天井伏せ図の実例" data-height-listener-added="true">
+      <figcaption>図3-4c: 天井伏せ図の実例 - オフィス (RCP Example - Office)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_028.jpg" alt="平面詳細図・天井伏せ図・展開図の関係" data-height-listener-added="true">
+      <figcaption>図3-4d: 平面詳細図・天井伏せ図・展開図の関係 (Relationship between plans)</figcaption>
+    </figure>
+
+    <div class="info-box green">
+      <span class="box-title">天井伏せ図のチェックポイント / RCP Checkpoints</span>
+      <ul>
+        <li><strong>照明器具の位置</strong>: 部屋の中心からバランス良く配置されているか？</li>
+        <li><strong>天井高さ（CH）</strong>: 床面（FL）から天井裏までの高さを確認</li>
+        <li><strong>点検口の位置</strong>: 設備メンテナンスのための点検口は適切か？</li>
+        <li><strong>空調吹出口</strong>: 人の頭上に直接当たらないように配置</li>
+      </ul>
+    </div>
+
+
+    <h3>
+      3-2. 建具製作図（たてぐせいさくず）<br><small style="font-size: 0.7em">Joinery / Window &amp; Door Shop Drawings</small>
+    </h3>
+
+    <p>窓（サッシ）やドアを作るための図面です。メーカーが作成し、現場監督が承認します。</p>
+
+    <div class="info-box green">
+      <span class="box-title">主な建具記号 / Symbols</span>
+      <ul>
+        <li><strong>AW</strong>: アルミ製窓 (Aluminum Window)</li>
+        <li><strong>AD</strong>: アルミ製ドア (Aluminum Door)</li>
+        <li><strong>SD</strong>: スチール（鉄）製ドア (Steel Door)</li>
+        <li><strong>SSD</strong>: ステンレス製ドア (Stainless Steel Door)</li>
+        <li><strong>WW</strong>: 木製窓 (Wooden Window)</li>
+      </ul>
+    </div>
+
+    <figure>
+      <img src="images/image_029.jpg" alt="アルミサッシ詳細" data-height-listener-added="true">
+      <figcaption>図3-5: アルミサッシの断面詳細 (Section Detail of Aluminum Sash)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_030.jpg" alt="サッシ図" data-height-listener-added="true">
+      <figcaption>図3-6: サッシ姿図と断面 (Sash Elevation and Section)</figcaption>
+    </figure>
+
+    <p>
+      <strong>チェックポイント:</strong>
+      開口寸法（Opening dimension）は正しいか？ 防水（Waterproofing）の納まりは適切か？
+    </p>
+
+    <figure>
+      <img src="images/image_031.jpg" alt="建具製作図" data-height-listener-added="true">
+      <figcaption>図3-7: 建具製作図の例 (Example of Joinery Shop Drawing)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/image_032.jpg" alt="スチールドア" data-height-listener-added="true">
+      <figcaption>図3-8: スチールドア(SD)の製作図 (Steel Door Shop Drawing)</figcaption>
+    </figure>
+
+    <h3>3-3. 金物製作図（かなものせいさくず）<br><small style="font-size: 0.7em">Metal Work Shop Drawings</small></h3>
+
+    <p>
+      手すり（Handrail）、笠木（Coping）、タラップ（Ladder）などの金属製品の図面です。
+      <span class="term">アンカーボルト</span>の位置や、<span class="term">溶接（ようせつ / Welding）</span>の方法が詳しく書かれています。
+    </p>
+    <ul>
+      <li><strong>手すり高さ</strong>: 建築基準法で一般的に1100mm以上とされています。</li>
+      <li><strong>溶接記号</strong>: 図面上の記号（すみ肉溶接など）を理解する必要があります。</li>
+    </ul>
+
+    <!-- 付録 -->
+    <hr>
+    <h2>付録: 重要用語集 <small>(Japanese - English - Myanmar Checklist)</small></h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>日本語 (Japanese)</th>
+          <th>読み方 (Reading)</th>
+          <th>英語 (English)</th>
+          <th>Myanmar Note</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 躯体関連 -->
+        <tr>
+          <td colspan="4" style="background-color: #ecf0f1; font-weight: bold">躯体関連 (Structural Terms)</td>
+        </tr>
+        <tr>
+          <td>鉄筋</td>
+          <td>てっきん</td>
+          <td>Rebar / Reinforcing bar</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>配筋図</td>
+          <td>はいきんず</td>
+          <td>Bar arrangement drawing</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>かぶり厚さ</td>
+          <td>かぶりあつさ</td>
+          <td>Concrete cover</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>定着長さ</td>
+          <td>ていちゃくながさ</td>
+          <td>Anchorage length</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>型枠</td>
+          <td>かたわく</td>
+          <td>Formwork</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>支保工</td>
+          <td>しほこう</td>
+          <td>Shoring / Support</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>打設</td>
+          <td>だせつ</td>
+          <td>Concrete pouring</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>目地</td>
+          <td>めじ</td>
+          <td>Joint</td>
+          <td></td>
+        </tr>
+        <!-- 仕上げ関連 -->
+        <tr>
+          <td colspan="4" style="background-color: #ecf0f1; font-weight: bold">仕上げ関連 (Finishing Terms)</td>
+        </tr>
+        <tr>
+          <td>平面詳細図</td>
+          <td>へいめんしょうさいず</td>
+          <td>Detailed floor plan</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>展開図</td>
+          <td>てんかいず</td>
+          <td>Interior elevation</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>天井伏せ図</td>
+          <td>てんじょうふせず</td>
+          <td>Reflected ceiling plan</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>巾木</td>
+          <td>はばき</td>
+          <td>Baseboard / Skirting</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>建具</td>
+          <td>たてぐ</td>
+          <td>Fittings (Doors/Windows)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>手すり</td>
+          <td>てすり</td>
+          <td>Handrail</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>納まり</td>
+          <td>おさまり</td>
+          <td>Fitting / Detail</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="preview-next">
+      <h3><span style="color: rgb(255, 255, 255);">To be continued...</span></h3>
+      <p><span style="color: rgb(255, 255, 255);">
+        次回は「第4章：設備施工図の基本」と「第5章：施工図作成の実践とCAD」について学びます。</span><span style="color: rgb(255, 255, 255);">
+        Next: Chapter 4 (Equipment Drawings) and Chapter 5 (Practical CAD Drawing).</span>
+      </p>
+    </div>
+
+    <footer>
+      <p>© 2025 NARUKAWA Japanese Engineering Class. All Rights Reserved.</p>
+      <p>Designed for Myanmar Architecture Engineers.</p>
+    </footer>
+</section>
+
+  <section id="part-3" class="part-divider">
+  <!-- Source file: ミャンマー人のための日本施工図ガイド【３】.html -->
+<!-- Cover Page -->
+    <div class="cover-page">
+      <h1 class="cover-title">建築施工図の基本<br>第4章・第5章</h1>
+      <div class="cover-subtitle">
+        設備施工図と専門工事施工図<br><span class="en-term">Basics of Construction Drawings: MEP &amp; Specialized Works</span>
+      </div>
+
+      <div class="cover-info">
+        <p><strong>作成日 / Date:</strong> 2025年12月</p>
+        <p><strong>対象 / Target:</strong> ミャンマー人建築技術者向け<br>日本建築施工図基礎講習会</p>
+      </div>
+
+      <div class="copyright">© NARUKAWA Japanese Engineering Class</div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+      <h2>目次 / Table of Contents</h2>
+      <ul>
+        <li>
+          <strong>第4章: 設備施工図の基本 / Chapter 4: Basics of MEP Drawings</strong>
+          <ul>
+            <li>4-1. 設備施工図とは / Introduction to MEP Drawings</li>
+            <li>4-2. 電気設備図の見方 / Electrical Drawings</li>
+            <li>4-3. 給排水衛生設備図の見方 / Plumbing &amp; Sanitary Drawings</li>
+            <li>4-4. 空調換気設備図の見方 / HVAC Drawings</li>
+            <li>4-5. 設備と建築の調整実務 / Coordination between Arch &amp; MEP</li>
+          </ul>
+        </li>
+        <li>
+          <strong>第5章: 専門工事施工図 / Chapter 5: Specialized Construction Drawings</strong>
+          <ul>
+            <li>5-1. 外壁工事施工図 / Exterior Wall Works</li>
+            <li>5-2. 防水工事施工図 / Waterproofing Works</li>
+            <li>5-3. 屋根工事施工図 / Roofing Works</li>
+            <li>5-4. 実務ポイント / Practical Points</li>
+          </ul>
+        </li>
+        <li><strong>付録 / Appendix</strong></li>
+      </ul>
+    </div>
+
+    <!-- Chapter 4 -->
+    <h1>第4章: 設備施工図の基本<br><span class="en-term">Chapter 4: Basics of MEP Drawings</span></h1>
+
+    <div class="info-box box-blue" style="background-color: #e3f2fd; border-color: #1976d2;">
+      <h4 style="color: #1976d2;">📚 第4章で学ぶこと / What You Will Learn in Chapter 4</h4>
+      <p>この章では、建築物に欠かせない設備（電気・給排水・空調）の施工図について学びます。設備記号の読み方、図面の見方、そして建築との調整方法を理解しましょう。</p>
+      <ul style="margin-bottom: 0;">
+        <li>✅ 電気設備図の記号と見方（照明・コンセント・配線）</li>
+        <li>✅ 給排水衛生設備図の記号と勾配の重要性</li>
+        <li>✅ 空調換気設備図のダクトと吹出口</li>
+        <li>✅ 建築と設備の調整（総合図・スリーブ・干渉問題）</li>
+      </ul>
+    </div>
+
+    <h2>4-1. 設備施工図とは / What are MEP Drawings?</h2>
+
+    <div class="info-box box-blue">
+      <h4>
+        <ruby>設備施工図<rt>せつびせこうず</rt></ruby>の定義と役割
+      </h4>
+      <p>
+        設備施工図は、設計図（Design
+        Drawings）をもとに、実際に現場で工事ができるように、機器の正確な位置、配管のルート、寸法などを詳細に書き表した図面です。建築図（意匠図・構造図）と重ね合わせ、干渉がないかを確認するために非常に重要です。
+      </p>
+      <p class="en-term">
+        MEP (Mechanical, Electrical, and Plumbing) working drawings show precise locations, routing, and dimensions of
+        equipment based on design drawings. They are crucial for checking interferences with architectural and
+        structural elements.
+      </p>
+    </div>
+
+    <h3>主な設備工事の種類 / Types of MEP Works</h3>
+    <ul>
+      <li><strong>電気設備工事 (Electrical Work):</strong> 照明、コンセント、受変電設備、弱電（電話・LAN）など。</li>
+      <li>
+        <strong>給排水衛生設備工事 (Plumbing/Sanitary Work):</strong> 給水、排水、ガス、衛生器具（トイレ・洗面）など。
+      </li>
+      <li><strong>空調換気設備工事 (HVAC Work):</strong> エアコン、換気扇、ダクト工事など。</li>
+    </ul>
+
+    <h2>4-2. 電気設備図の見方 / Electrical Drawings</h2>
+
+    <p>電気図面には、主に「平面図（配線図）」、「単線結線図（盤関係）」、「詳細図」があります。</p>
+
+    <h3>電気記号一覧 / Electrical Symbols</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>分類 / Category</th>
+          <th>記号 / Symbol (Shape)</th>
+          <th>日本語名称 / Japanese Name</th>
+          <th>英語名称 / English Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">盤類<br>Panels</td>
+          <td style="text-align: center">■ (黒四角)</td>
+          <td>
+            <ruby>配電盤<rt>はいでんばん</rt></ruby>
+          </td>
+          <td>Distribution Panel</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">☒ (白四角に×)</td>
+          <td>
+            <ruby>分電盤<rt>ぶんでんばん</rt></ruby>
+          </td>
+          <td>Distribution Board</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">⧄ (白四角に斜線)</td>
+          <td>
+            <ruby>制御盤<rt>せいぎょばん</rt></ruby>
+          </td>
+          <td>Control Panel</td>
+        </tr>
+        <tr>
+          <td rowspan="3">照明<br>Lighting</td>
+          <td style="text-align: center">○</td>
+          <td>
+            <ruby>白熱灯<rt>はくねつとう</rt></ruby> (ダウンライト等)
+          </td>
+          <td>Incandescent / Downlight</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">▭</td>
+          <td>
+            <ruby>蛍光灯<rt>けいこうとう</rt></ruby> (ベースライト)
+          </td>
+          <td>Fluorescent Light</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">▱ (ハッチング)</td>
+          <td>
+            <ruby>誘導灯<rt>ゆうどうとう</rt></ruby>
+          </td>
+          <td>Exit Sign / Guide Light</td>
+        </tr>
+        <tr>
+          <td rowspan="3">コンセント<br>Outlet</td>
+          <td style="text-align: center">⦶ (丸に縦線2本)</td>
+          <td>
+            <ruby>壁付<rt>かべつき</rt></ruby>コンセント
+          </td>
+          <td>Wall Outlet</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Ⓞ (床用)</td>
+          <td>
+            <ruby>床付<rt>ゆかつき</rt></ruby>コンセント
+          </td>
+          <td>Floor Outlet</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">WP</td>
+          <td>
+            <ruby>防水<rt>ぼうすい</rt></ruby>コンセント
+          </td>
+          <td>Waterproof Outlet</td>
+        </tr>
+        <tr>
+          <td rowspan="2">スイッチ<br>Switch</td>
+          <td style="text-align: center">●</td>
+          <td>
+            <ruby>点滅器<rt>てんめつき</rt></ruby> (スイッチ)
+          </td>
+          <td>Switch</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">●3</td>
+          <td>3路スイッチ</td>
+          <td>3-way Switch</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box box-orange">
+      <h4>チェックポイント / Checkpoints</h4>
+      <ul class="check-list">
+        <li>
+          <strong>梁貫通 (Beam Penetration):</strong> スリーブ位置は梁せい（高さ）の中央付近か？ 鉄筋を切断しないか？
+        </li>
+        <li><strong>天井高さ (Ceiling Height):</strong> 照明器具が天井内に収まるスペース（ふところ）はあるか？</li>
+        <li>
+          <strong>スイッチ位置:</strong> 建具（ドア）の開き勝手と干渉していないか？（ドアの裏にスイッチが来ないように）
+        </li>
+      </ul>
+    </div>
+
+    <h2>4-3. 給排水衛生設備図の見方 / Plumbing Drawings</h2>
+
+    <p>水やお湯を供給し、汚れた水を排出するための図面です。「勾配（こうばい / slope）」が非常に重要です。</p>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_033.jpg" alt="給排水衛生設備記号一覧" style="width: 100%; max-width: 800px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図4-3: 給排水衛生設備記号一覧（Figure 4-3: Plumbing &amp; Sanitary Symbols）</strong>
+      </p>
+    </div>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_034.jpg" alt="給排水設備記号" style="width: 100%; max-width: 750px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図4-5: 給排水設備記号の例（Figure 4-5: Plumbing Symbols Example）</strong>
+      </p>
+    </div>
+
+    <h3>給排水記号一覧 / Plumbing Symbols</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>分類 / Category</th>
+          <th>線種・記号 / Symbol</th>
+          <th>日本語名称 / Japanese Name</th>
+          <th>用途 / Usage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">配管<br>Piping</td>
+          <td>― W ―</td>
+          <td>
+            <ruby>給水管<rt>きゅうすいかん</rt></ruby>
+          </td>
+          <td>Drinking Water Supply</td>
+        </tr>
+        <tr>
+          <td>― H ―</td>
+          <td>
+            <ruby>給湯管<rt>きゅうとうかん</rt></ruby>
+          </td>
+          <td>Hot Water Supply</td>
+        </tr>
+        <tr>
+          <td>― D ―</td>
+          <td>
+            <ruby>排水管<rt>はいすいかん</rt></ruby> (雑排水)
+          </td>
+          <td>Drainage (Gray water)</td>
+        </tr>
+        <tr>
+          <td>― S ―</td>
+          <td>
+            <ruby>汚水管<rt>おすいかん</rt></ruby>
+          </td>
+          <td>Sewage (Black water)</td>
+        </tr>
+        <tr>
+          <td>― V ―</td>
+          <td>
+            <ruby>通気管<rt>つうきかん</rt></ruby>
+          </td>
+          <td>Vent Pipe</td>
+        </tr>
+        <tr>
+          <td rowspan="2">バルブ<br>Valve</td>
+          <td style="text-align: center">⧓ (ボウタイ型)</td>
+          <td>
+            <ruby>仕切弁<rt>しきりべん</rt></ruby> (ゲート弁)
+          </td>
+          <td>Gate Valve (Shut-off)</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">N→</td>
+          <td>
+            <ruby>逆止弁<rt>ぎゃくしべん</rt></ruby> (チャッキ)
+          </td>
+          <td>Check Valve</td>
+        </tr>
+        <tr>
+          <td>器具<br>Fixture</td>
+          <td style="text-align: center">◍ (ハッチング丸)</td>
+          <td>ルーフドレーン</td>
+          <td>Roof Drain</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box box-red">
+      <h4>重要：排水勾配の基準 / Important: Drainage Slope</h4>
+      <p>水は高いところから低いところへ流れます。適切な勾配が必要です。</p>
+      <ul>
+        <li>管径 65mm以下: <strong>1/50 以上</strong></li>
+        <li>管径 75mm, 100mm: <strong>1/100 以上</strong></li>
+        <li>管径 125mm以上: <strong>1/150 以上</strong></li>
+      </ul>
+    </div>
+
+    <h2>4-4. 空調換気設備図の見方 / HVAC Drawings</h2>
+
+    <p>空気を運ぶ「ダクト」はサイズが大きいため、建築（梁や天井）との干渉が最も起こりやすい設備です。</p>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_035.jpg" alt="空調換気設備記号一覧" style="width: 100%; max-width: 800px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図4-4: 空調換気設備記号一覧（Figure 4-4: HVAC Symbols）</strong>
+      </p>
+    </div>
+
+    <h3>空調換気記号一覧 / HVAC Symbols</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>分類 / Category</th>
+          <th>記号 / Symbol</th>
+          <th>日本語名称 / Japanese Name</th>
+          <th>英語名称 / English Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4">ダクト<br>Duct</td>
+          <td>SA (Supply Air)</td>
+          <td>
+            <ruby>給気<rt>きゅうき</rt></ruby>ダクト
+          </td>
+          <td>Supply Air Duct</td>
+        </tr>
+        <tr>
+          <td>RA (Return Air)</td>
+          <td>
+            <ruby>還気<rt>かんき</rt></ruby>ダクト
+          </td>
+          <td>Return Air Duct</td>
+        </tr>
+        <tr>
+          <td>EA (Exhaust Air)</td>
+          <td>
+            <ruby>排気<rt>はいき</rt></ruby>ダクト
+          </td>
+          <td>Exhaust Air Duct</td>
+        </tr>
+        <tr>
+          <td>OA (Outside Air)</td>
+          <td>
+            <ruby>外気<rt>がいき</rt></ruby>ダクト
+          </td>
+          <td>Outside Air Duct</td>
+        </tr>
+        <tr>
+          <td rowspan="3">ダンパー<br>Damper</td>
+          <td>VD</td>
+          <td>
+            <ruby>風量調節<rt>ふうりょうちょうせつ</rt></ruby>ダンパー
+          </td>
+          <td>Volume Damper</td>
+        </tr>
+        <tr>
+          <td>FD</td>
+          <td>
+            <ruby>防火<rt>ぼうか</rt></ruby>ダンパー
+          </td>
+          <td>Fire Damper</td>
+        </tr>
+        <tr>
+          <td>SMD</td>
+          <td>
+            <ruby>排煙<rt>はいえん</rt></ruby>ダンパー
+          </td>
+          <td>Smoke Damper</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4-5. 設備と建築の調整実務 / Coordination</h2>
+
+    <div class="info-box box-green">
+      <h4>総合図（そうごうず / Coordination Drawing）</h4>
+      <p>
+        建築、電気、空調、衛生のすべての図面を1枚に重ね合わせた図面です。天井裏でダクトと配管がぶつからないか、照明器具とスプリンクラーの位置が重ならないかなどを確認します。
+      </p>
+    </div>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_036.jpg" alt="天井裏の納まり" style="width: 100%; max-width: 750px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図4-6: 天井裏の納まり例（Figure 4-6: Ceiling Space Coordination）</strong><br>
+        <span style="font-size: 10pt;">ダクト、配管、照明器具、スプリンクラーが天井内で調整される</span>
+      </p>
+    </div>
+
+    <h3>よくある干渉問題と対策 / Common Interferences</h3>
+    <ol>
+      <li>
+        <strong>梁貫通のルール:</strong>
+        梁には鉄筋が入っています。スリーブ（配管を通す穴）は、梁の高さ（せい）の1/3の範囲内に、スリーブ径の3倍以上の間隔を空けて配置しなければなりません。
+      </li>
+      <li><strong>天井内スペース:</strong> 大きなダクトが梁の下を通る場合、天井高さを確保できるか確認が必要です。</li>
+    </ol>
+
+    <hr>
+
+    <!-- Chapter 5 -->
+    <h1>第5章: 専門工事施工図<br><span class="en-term">Chapter 5: Specialized Construction Drawings</span></h1>
+
+    <div class="info-box box-blue" style="background-color: #e8f5e9; border-color: #388e3c;">
+      <h4 style="color: #388e3c;">📚 第5章で学ぶこと / What You Will Learn in Chapter 5</h4>
+      <p>この章では、建築物の外装や防水など、専門業者が作成する施工図について学びます。美観と機能を両立させる「納まり」の考え方を理解しましょう。</p>
+      <ul style="margin-bottom: 0;">
+        <li>✅ 外壁タイル工事の割付図と目地の考え方</li>
+        <li>✅ 防水工事の種類と詳細図の見方（屋上・バルコニー）</li>
+        <li>✅ 屋根工事の構成と排水計画</li>
+        <li>✅ 納まり検討のポイント（水仕舞い・施工順序・逃げ寸法）</li>
+      </ul>
+    </div>
+
+    <h2>5-1. 外壁工事施工図 / Exterior Wall Works</h2>
+
+    <h3>タイル工事 (Tile Work)</h3>
+    <p>タイルの割り付け（レイアウト）は、建物の美観を決める重要な作業です。</p>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_037.jpg" alt="タイル割付図" style="width: 100%; max-width: 600px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図5-1: タイル割付図の例（Figure 5-1: Tile Layout Plan）</strong><br>
+        <span style="font-size: 10pt;">窓の位置、目地の位置、半端なタイルが入らないかを確認する図面</span>
+      </p>
+    </div>
+
+    <ul>
+      <li>
+        <strong><ruby>湿式工法<rt>しっしきこうほう</rt></ruby>:</strong>
+        モルタルで貼り付ける伝統的な方法。
+      </li>
+      <li>
+        <strong><ruby>乾式工法<rt>かんしきこうほう</rt></ruby>:</strong>
+        専用の接着剤や金物を使う方法。剥落防止に優れる。
+      </li>
+      <li>
+        <strong><ruby>伸縮調整目地<rt>しんしゅくちょうせいめじ</rt></ruby>:</strong>
+        コンクリートやタイルの熱膨張によるひび割れを防ぐため、約3mごとに設ける弾性シーリング目地。
+      </li>
+    </ul>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_038.jpg" alt="タイル割付の基本" style="width: 100%; max-width: 700px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図5-3: タイル割付の基本（Figure 5-3: Tile Layout Basics）</strong><br>
+        <span style="font-size: 10pt;">目地を合わせて美しく仕上げる</span>
+      </p>
+    </div>
+
+    <h2>5-2. 防水工事施工図 / Waterproofing Works</h2>
+
+    <p>雨漏りを防ぐ最も重要な工事です。屋上、バルコニー、廊下などに施工します。</p>
+
+    <div class="info-box box-blue">
+      <h4>防水工事の種類 / Types of Waterproofing</h4>
+      <dl>
+        <dt><strong>アスファルト防水 (Asphalt Waterproofing):</strong></dt>
+        <dd>
+          溶かしたアスファルトとシートを重ねる工法。信頼性が高い。屋上でよく使われる。<br>
+          <em>※入隅は50mm、出隅は30mmの面取りが必要。立上がり高さは300mm以上確保。</em>
+        </dd>
+
+        <dt><strong>シート防水 (Sheet Waterproofing):</strong></dt>
+        <dd>ゴムや塩ビのシートを貼る工法。屋上やバルコニーに使用。</dd>
+
+        <dt><strong>塗膜防水 (Liquid Applied Waterproofing):</strong></dt>
+        <dd>液状の防水材（ウレタンなど）を塗る工法。複雑な形状に適している。</dd>
+      </dl>
+    </div>
+
+    <div style="margin: 20px 0;">
+      <img src="images/image_039.jpg" alt="屋上防水詳細図" style="width: 100%; max-width: 700px; border: 2px solid #ddd; display: block; margin: 0 auto;" data-height-listener-added="true">
+      <p style="text-align: center; font-size: 11pt; color: #666; margin-top: 10px;">
+        <strong>図5-2: 屋上防水詳細図（Figure 5-2: Roof Waterproofing Detail）</strong><br>
+        <span style="font-size: 10pt;">パラペットの立上がり、押えコンクリート、伸縮目地、ドレン回りの詳細</span>
+      </p>
+    </div>
+
+    <h2>5-3. 屋根工事施工図 / Roofing Works</h2>
+
+    <h3>屋上仕上げの構成 (Flat Roof Composition)</h3>
+    <ol>
+      <li><strong>スラブ (Slab):</strong> 構造体のコンクリート。</li>
+      <li><strong>断熱材 (Insulation):</strong> 暑さ寒さを防ぐ。</li>
+      <li><strong>防水層 (Waterproofing Layer):</strong> 水を防ぐ。</li>
+      <li>
+        <strong>保護コンクリート (Protective Concrete):</strong>
+        防水層を守る（約60mm厚）。溶接金網（ワイヤーメッシュ）を入れる。
+      </li>
+    </ol>
+
+    <p>
+      <strong>排水勾配 (Drainage Slope):</strong>
+      水たまりができないよう、1/75〜1/100程度の勾配をつけ、ルーフドレーン（排水口）へ水を導きます。
+    </p>
+
+    <h2>5-4. 専門工事施工図作成の実務ポイント</h2>
+
+    <div class="info-box box-red">
+      <h4>
+        <ruby>納まり<rt>おさまり</rt></ruby>検討のポイント (Detailing Points)
+      </h4>
+      <p>「納まり」とは、異なる材料や部材が出会う部分が、機能的・美観的にうまく処理されている状態のことです。</p>
+      <ul class="check-list">
+        <li>
+          <strong>水仕舞い (Waterproofing):</strong> 水が内部に入らないよう、上から下へ、外へ流れるようになっているか？
+        </li>
+        <li><strong>施工順序:</strong> 実際にその手順で工事が可能か？（道具が入るスペースはあるか？）</li>
+        <li><strong>逃げ寸法:</strong> 施工誤差を吸収する余裕（クリアランス）はあるか？</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!-- Appendix -->
+    <h1>付録 / Appendix</h1>
+
+    <h2>重要用語集 / Important Terminology</h2>
+    <p>現場でよく使われる用語です。(Myanmar語訳は学習用スペースです)</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 25%">日本語 (Japanese)</th>
+          <th style="width: 20%">読み (Furigana)</th>
+          <th style="width: 30%">英語 (English)</th>
+          <th style="width: 25%">Myanmar (Note)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="4" style="background-color: #f0f7ff"><strong>設備関連 / MEP Terms</strong></td>
+        </tr>
+        <tr>
+          <td>配電盤</td>
+          <td>はいでんばん</td>
+          <td>Distribution Panel</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>照明器具</td>
+          <td>しょうめいきぐ</td>
+          <td>Lighting Fixture</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>コンセント</td>
+          <td>こんせんと</td>
+          <td>Outlet / Socket</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>給水管</td>
+          <td>きゅうすいかん</td>
+          <td>Water Supply Pipe</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>排水管</td>
+          <td>はいすいかん</td>
+          <td>Drainage Pipe</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>勾配</td>
+          <td>こうばい</td>
+          <td>Slope / Gradient</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>通気管</td>
+          <td>つうきかん</td>
+          <td>Vent Pipe</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>衛生器具</td>
+          <td>えいせいきぐ</td>
+          <td>Sanitary Fixture</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>空調機</td>
+          <td>くうちょうき</td>
+          <td>Air Conditioner</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ダクト</td>
+          <td>だくと</td>
+          <td>Duct</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>スリーブ</td>
+          <td>すりーぶ</td>
+          <td>Sleeve (Pipe penetration)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>梁貫通</td>
+          <td>はりかんつう</td>
+          <td>Beam Penetration</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>インサート</td>
+          <td>いんさーと</td>
+          <td>Insert (Anchor)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>干渉</td>
+          <td>かんしょう</td>
+          <td>Interference / Clash</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>試運転</td>
+          <td>しうんてん</td>
+          <td>Test Run / Commissioning</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="4" style="background-color: #f0fff4"><strong>専門工事関連 / Specialized Works Terms</strong></td>
+        </tr>
+        <tr>
+          <td>外壁</td>
+          <td>がいへき</td>
+          <td>Exterior Wall</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>タイル</td>
+          <td>たいる</td>
+          <td>Tile</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>目地</td>
+          <td>めじ</td>
+          <td>Joint</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>伸縮目地</td>
+          <td>しんしゅくめじ</td>
+          <td>Expansion Joint</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>防水</td>
+          <td>ぼうすい</td>
+          <td>Waterproofing</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>アスファルト防水</td>
+          <td>あすふぁるとぼうすい</td>
+          <td>Asphalt Waterproofing</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>シーリング</td>
+          <td>しーりんぐ</td>
+          <td>Sealing / Caulking</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>屋上</td>
+          <td>おくじょう</td>
+          <td>Rooftop</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>パラペット</td>
+          <td>ぱらぺっと</td>
+          <td>Parapet</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ドレン</td>
+          <td>どれん</td>
+          <td>Drain</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>立上がり</td>
+          <td>たちあがり</td>
+          <td>Upstand / Rise</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>足場</td>
+          <td>あしば</td>
+          <td>Scaffolding</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>養生</td>
+          <td>ようじょう</td>
+          <td>Curing / Protection</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>納まり</td>
+          <td>おさまり</td>
+          <td>Detailing / Fitting</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>墨出し</td>
+          <td>すみだし</td>
+          <td>Marking / Layout</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>換気扇</td>
+          <td>かんきせん</td>
+          <td>Ventilation Fan</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>吹出口</td>
+          <td>ふきだしぐち</td>
+          <td>Supply Air Outlet</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>防火ダンパー</td>
+          <td>ぼうかだんぱー</td>
+          <td>Fire Damper</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>逆止弁</td>
+          <td>ぎゃくしべん</td>
+          <td>Check Valve</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>バルブ</td>
+          <td>ばるぶ</td>
+          <td>Valve</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>湿式工法</td>
+          <td>しっしきこうほう</td>
+          <td>Wet Method</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>乾式工法</td>
+          <td>かんしきこうほう</td>
+          <td>Dry Method</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>出隅</td>
+          <td>ですみ</td>
+          <td>External Corner</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>入隅</td>
+          <td>いりすみ</td>
+          <td>Internal Corner</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>押えコンクリート</td>
+          <td>おさえこんくりーと</td>
+          <td>Protective Concrete</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>断熱材</td>
+          <td>だんねつざい</td>
+          <td>Insulation Material</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>笠木</td>
+          <td>かさぎ</td>
+          <td>Coping / Cap</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>水切り</td>
+          <td>みずきり</td>
+          <td>Drip Edge / Flashing</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>総合図</td>
+          <td>そうごうず</td>
+          <td>Coordination Drawing</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box box-green">
+      <h4>学習メモ / Study Note</h4>
+      <p>現場では「略語」がよく使われます。例えば：</p>
+      <ul>
+        <li>SL (Slab Level) = スラブ天端（コンクリートの上面）</li>
+        <li>FL (Floor Level) = フロアレベル（仕上げの床面）</li>
+        <li>CH (Ceiling Height) = 天井高さ</li>
+        <li>PS (Pipe Shaft) = パイプシャフト（縦配管スペース）</li>
+        <li>DS (Duct Shaft) = ダクトシャフト（縦ダクトスペース）</li>
+        <li>EPS (Electric Pipe Shaft) = 電気配線用縦シャフト</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <h2>まとめ / Summary</h2>
+
+    <div class="info-box box-blue">
+      <h4>第4章・第5章の重要ポイント / Key Points</h4>
+      
+      <h5>✅ 設備施工図（第4章）</h5>
+      <ol>
+        <li><strong>記号を覚える：</strong> 電気・給排水・空調それぞれの記号を理解することが第一歩</li>
+        <li><strong>建築との調整：</strong> 梁貫通のルール、天井高さの確保、スリーブ位置の確認</li>
+        <li><strong>勾配の重要性：</strong> 排水管は必ず勾配が必要（水が流れる方向）</li>
+        <li><strong>総合図の役割：</strong> すべての設備と建築の干渉をチェックする最重要図面</li>
+      </ol>
+
+      <h5>✅ 専門工事施工図（第5章）</h5>
+      <ol>
+        <li><strong>タイル割付：</strong> 建具位置、目地位置を考慮し、半端なタイルが出ないように計画</li>
+        <li><strong>防水工事：</strong> 立上がり300mm以上、入隅50mm・出隅30mm面取り、伸縮目地の配置</li>
+        <li><strong>納まり検討：</strong> 水仕舞い（水が浸入しない）、施工順序、逃げ寸法の確保</li>
+        <li><strong>図面承認：</strong> 専門業者との調整→施工図作成→承認→施工の流れ</li>
+      </ol>
+    </div>
+
+    <div class="info-box box-orange">
+      <h4>次のステップ / Next Steps</h4>
+      <p>この講習会資料で学んだ基礎知識をもとに、次のステップに進みましょう：</p>
+      <ul class="check-list">
+        <li>実際の図面を繰り返し見て、記号と納まりに慣れる</li>
+        <li>現場見学で、図面と実物を照らし合わせる</li>
+        <li>先輩技術者に積極的に質問する</li>
+        <li>CADソフトの操作を学び、実際に図面を描く練習をする</li>
+        <li>建築基準法、JASS（日本建築学会標準仕様書）を読む</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding: 30px; background-color: #f8f9fa; border: 2px solid #0056b3;">
+      <h3 style="color: #0056b3; margin-top: 0;">日本の建築施工図の学習、頑張ってください！</h3>
+      <p style="font-size: 14pt; margin: 20px 0;">
+        <strong>Good luck with your study of Japanese construction drawings!</strong>
+      </p>
+      <p style="font-size: 12pt; color: #666;">
+        この資料が、皆さんの技術者としての成長の一助となることを願っています。<br>
+        We hope this material will help you grow as a construction professional.
+      </p>
+      <p style="margin-top: 20px; font-size: 11pt;">
+        © 2025 NARUKAWA Japanese Engineering Class<br>
+        All Rights Reserved
+      </p>
+    </div>
+</section>
+
+  <section id="part-4" class="part-divider">
+  <!-- Source file: ミャンマー人のための日本建築施工図【４】.html -->
+<div class="header-info">
+      <p>
+        作成日: 2025年12月<br>
+        対象: ミャンマー人建築技術者向け日本建築施工図基礎講習会<br>
+        © NARUKAWA Japanese Engineering Class
+      </p>
+    </div>
+
+    <h1>
+      建築施工図の基本 第6章・第7章・第8章<br>
+      <span style="font-size: 0.6em; font-weight: normal">仮設計画図・CAD実践・現場事例</span>
+    </h1>
+
+    <div class="toc">
+      <h3>目次 / Table of Contents</h3>
+      <ul>
+        <li>
+          <strong>第6章: 仮設計画図と躯体図の詳細解説</strong>
+          <ul>
+            <li>6-1. 仮設計画図の役割と重要性</li>
+            <li>6-2. 総合仮設計画図</li>
+            <li>6-3. 根切・山留計画図</li>
+            <li>6-4. 外部足場計画図</li>
+            <li>6-5. 型枠支保工計画図</li>
+            <li>6-6. 揚重機計画・仮設設備</li>
+            <li>6-7. 躯体図の詳細解説</li>
+          </ul>
+        </li>
+        <li>
+          <strong>第7章: CADによる施工図作成実践</strong>
+          <ul>
+            <li>7-1. 施工図で使われるCADソフト</li>
+            <li>7-2. CADの基本操作</li>
+            <li>7-3. 施工図作成の実践手順</li>
+            <li>7-4. チェックと効率化</li>
+          </ul>
+        </li>
+        <li>
+          <strong>第8章: 実際の現場事例</strong>
+          <ul>
+            <li>8-1. トラブル事例と対策</li>
+            <li>8-2. 工程管理と施工図</li>
+            <li>8-3. 品質管理と施工図</li>
+            <li>8-4. 現場でのコミュニケーション</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h2>
+      第6章: 仮設計画図と躯体図の詳細解説<br><span style="font-size: 0.7em; color: #555">Detailed Explanation of Temporary Works Plans and Structural Drawings</span>
+    </h2>
+
+    <h3>6-1. 仮設計画図の役割 / Role of Temporary Works Plans</h3>
+    <p>
+      仮設計画図は、建物を建設するために一時的に必要となる設備や構造物を示す図面です。建物完成後には撤去されますが、工事の安全、品質、工程を守るために極めて重要です。<br>
+      Temporary works plans show temporary facilities and structures required to construct the building. Although
+      removed after completion, they are crucial for safety, quality, and schedule.
+    </p>
+
+    <h3>6-2. 総合仮設計画図 / Site Temporary Works Plan</h3>
+    <p>
+      工事期間中の敷地全体の利用計画を示します。仮囲い、ゲート、現場事務所、資材置き場、クレーンの配置などを記載します。<br>
+      Shows the utilization plan for the entire site during the construction period. Includes site enclosure, gates,
+      site office, material storage, and crane positioning.
+    </p>
+
+    <div class="info-box">
+      <strong>ポイント / Point:</strong><br>
+      動線計画（Traffic Line Plan）が重要です。車両と作業員の動線を分け、安全で効率的な配置を検討します。<br>
+      Traffic line planning is important. Separate vehicle and worker paths to ensure safety and efficiency.
+    </div>
+
+    <!-- 図6-2 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-2: 総合仮設計画図（平面図・断面図） / Site Temporary Works Plan</h4>
+        <img src="images/image_040.jpg" alt="総合仮設計画図（平面図・断面図）" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> 総合仮設計画図の実例</p>
+      </div>
+    </div>
+
+    <h3>6-3. 根切・山留計画図 / Excavation and Earth Retaining Plan</h3>
+    <p>
+      地下部分を作るために土を掘る（根切）範囲と、周囲の土が崩れないように支える壁（山留）の計画図です。<br>
+      Plan for excavating soil (Negiri) to construct underground parts and the retaining wall (Yamadome) to prevent
+      surrounding soil collapse.
+    </p>
+
+    <!-- 図6-3 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-3: 根切・山留計画図 / Excavation and Earth Retaining Plan</h4>
+        <img src="images/image_041.jpg" alt="根切・山留計画図" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> 根切・山留計画図の実例</p>
+      </div>
+    </div>
+
+    <h3>6-4. 外部足場計画図 / Scaffolding Plan</h3>
+    <p>
+      建物の外周に設置する作業用足場の計画図です。安全な作業通路の確保、落下防止ネット（朝顔）の設置などが描かれます。<br>
+      Plan for working scaffolding installed around the building perimeter. Ensures safe walkways and includes fall
+      prevention nets (Asagao).
+    </p>
+
+    <!-- 図6-4 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-4: 足場架設通路計画図 / Scaffolding Plan</h4>
+        <img src="images/image_042.jpg" alt="足場架設通路計画図" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> 足場計画図の実例（立面図）</p>
+      </div>
+    </div>
+
+    <h3>6-5. 型枠支保工計画図 / Formwork Support Plan</h3>
+    <p>
+      コンクリートを流し込む型枠を支えるための支柱（サポート）や梁（大引き・根太）の配置図です。コンクリートの重量に耐えられるよう計算して配置します。<br>
+      Layout plan of props (supports) and beams (sleepers/joists) to support formwork for pouring concrete. Arranged
+      based on calculations to withstand concrete weight.
+    </p>
+
+    <!-- 図6-5 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-5: 型枠支保工計画図（貸店舗）/ Formwork Support Plan</h4>
+        <img src="images/image_043.jpg" alt="型枠支保工計画図（貸店舗）" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> 型枠支保工計画図の実例</p>
+      </div>
+    </div>
+
+    <!-- 図6-6 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-6: 型枠支保工計画図（階段最上階スラブ）/ Formwork Support Plan (Stair)</h4>
+        <img src="images/image_044.jpg" alt="型枠支保工計画図（階段最上階スラブ）" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> 型枠支保工計画図の実例（階段部分）</p>
+      </div>
+    </div>
+
+    <h3>6-7. 躯体図の詳細解説 / Detailed Structural Drawings</h3>
+    <p>
+      躯体図は、建物の骨組み（コンクリートの壁、柱、床、梁）の形状と寸法を正確に示す図面です。<br>
+      Structural drawings accurately show the shape and dimensions of the building frame (concrete walls, columns,
+      floors, beams).
+    </p>
+
+    <!-- 図6-7 基礎伏図 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-7: 杭・基礎伏図および断面図 / Pile &amp; Foundation Plan</h4>
+        <img src="images/image_045.jpg" alt="基礎配筋図" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source">出典: 基礎伏図・配筋図の実例</p>
+      </div>
+    </div>
+
+    <!-- 図6-8 階段躯体図 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図6-8: 階段躯体詳細図 / Stair Structure Detail</h4>
+        <img src="images/image_046.jpg" alt="階段躯体図" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source">出典: 階段躯体図の実例</p>
+      </div>
+    </div>
+
+    <h2>
+      第7章: CADによる施工図作成実践<br><span style="font-size: 0.7em; color: #555">Practice of Creating Construction Drawings with CAD</span>
+    </h2>
+
+    <h3>7-1. 施工図で使われるCADソフト / CAD Software for Construction Drawings</h3>
+    <p>
+      日本の建築現場では主に以下のCADソフトが使用されます。<br>
+      The following CAD software is mainly used in Japanese construction sites.
+    </p>
+    <ul>
+      <li><strong>AutoCAD</strong>: 世界標準。多くのゼネコンで使用。</li>
+      <li><strong>Jw_cad</strong>: 日本独自の無料ソフト。中小規模現場で人気。</li>
+      <li><strong>Revit / ArchiCAD</strong>: BIM対応ソフト。近年増加中。</li>
+    </ul>
+
+    <h3>7-3. 施工図作成の実践手順 / Practical Steps for Drawing Creation</h3>
+    <p>
+      CADを使った躯体図作成の基本的な流れです。<br>
+      Basic flow of creating structural drawings using CAD.
+    </p>
+    <ol>
+      <li><strong>設計図の読み込み</strong>: 通り芯、柱、梁の基本情報を確認。</li>
+      <li><strong>通り芯の作図</strong>: 正確な位置に配置。</li>
+      <li><strong>コンクリートラインの作図</strong>: 柱・壁・梁の線を描く（太線）。</li>
+      <li><strong>寸法線の記入</strong>: 通り芯からの追い出し寸法を記入。</li>
+      <li><strong>符号の記入</strong>: 柱（C1）、梁（G1）、スラブ（S1）などの符号を記入。</li>
+    </ol>
+
+    <!-- 図7-1 挿入 -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">図7-1: CADによる躯体図作成例 / CAD Drawing Example</h4>
+        <img src="images/image_047.jpg" alt="躯体図CAD作成例" class="figure-img" data-height-listener-added="true">
+        <p class="figure-source"><strong>出典:</strong> WRC造躯体図の実例（CAD作成）</p>
+      </div>
+    </div>
+
+    <h2>
+      第8章: 実際の現場事例<br><span style="font-size: 0.7em; color: #555">Actual Site Cases and Troubleshooting</span>
+    </h2>
+
+    <h3>8-1. トラブル事例と対策 / Trouble Cases and Countermeasures</h3>
+    <div class="warning-box">
+      <strong>事例: 設備配管と梁の干渉 / Case: Interference between piping and beams</strong><br>
+      <p>
+        設計図では梁を貫通する予定だった配管が、実際には梁の鉄筋と干渉して通せないことが判明。<br>
+        It was found that piping scheduled to penetrate the beam in the design drawing actually interfered with the beam
+        reinforcement.
+      </p>
+      <p>
+        <strong>対策 / Countermeasure:</strong>
+        施工図作成段階（総合図）で、スリーブ位置と鉄筋位置を重ね合わせてチェックする。<br>
+        Check sleeve positions against reinforcement positions during the construction drawing phase (Composite
+        Drawing).
+      </p>
+    </div>
+
+    <h3>8-4. 現場でのコミュニケーション / Communication on Site</h3>
+    <p>
+      施工図は「現場の共通言語」です。図面を使って職人さんや他業者と正確に情報を共有しましょう。<br>
+      Construction drawings are the "common language of the site." Use drawings to share information accurately with
+      craftsmen and other contractors.
+    </p>
+
+    <!-- 図8-6 挿入（設備記号一覧） -->
+    <div class="figure-container">
+      <div class="figure-box">
+        <h4 class="figure-title">
+          図8-6: 設備施工計画図の記号一覧（電気・空調・衛生設備）/ Equipment Symbols Reference
+        </h4>
+
+        <h5 style="margin-top: 15px; color: #555">1. 電気設備シンボル / Electrical Symbols</h5>
+        <img src="images/image_048.jpg" alt="電気設備記号一覧" class="figure-img" data-height-listener-added="true">
+
+        <h5 style="margin-top: 15px; color: #555">2. 電気配線図の記号詳細 / Electrical Wiring Symbols Detail</h5>
+        <img src="images/image_049.jpg" alt="電気配線図記号" class="figure-img" data-height-listener-added="true">
+
+        <h5 style="margin-top: 15px; color: #555">3. 給排水衛生設備シンボル / Plumbing &amp; Sanitary Symbols</h5>
+        <img src="images/image_033.jpg" alt="給排水衛生設備記号" class="figure-img" data-height-listener-added="true">
+
+        <h5 style="margin-top: 15px; color: #555">4. 配管記号詳細 / Piping Symbols Detail</h5>
+        <img src="images/image_051.jpg" alt="配管記号" class="figure-img" data-height-listener-added="true">
+
+        <p class="figure-source"><strong>出典:</strong> 建築設備図面記号一覧（電気・給排水・空調）</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="info-box" style="background-color: #f9f9f9; border-color: #ddd">
+      <h3>総まとめ / Summary</h3>
+      <p>
+        これまでの全8章を通じて、建築施工図の基本から応用、実践的なトラブル対策までを学びました。施工図は建物の品質を左右する重要な仕事です。正確な図面を描き、現場をスムーズに進めるプロフェッショナルを目指してください。<br>
+        Through all 8 chapters, we have learned from the basics to applications and practical troubleshooting of
+        construction drawings. Construction drawings determine the quality of the building. Aim to be a professional who
+        draws accurate plans and facilitates smooth site operations.
+      </p>
+    </div>
+</section>
+
+  <div style="text-align: center; padding: 20px; background-color: #f5f5f5; border-top: 2px solid #2c3e50; margin-top: 40px;">
+    <h2 style="margin: 10px 0; color: #2c3e50; font-size: 20pt;">NARUKAWA Japanese Engineering Class</h2>
+    <p style="margin: 5px 0; color: #666; font-size: 12pt;">Produce　by　NL-DG Co.,ltd    NARUKAWA Co.,ltd</p>
+  </div>
+</body>
+</html>
